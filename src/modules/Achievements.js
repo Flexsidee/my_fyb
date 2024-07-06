@@ -1,14 +1,17 @@
 import { Box, List, Text } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 import { Fade } from "react-reveal";
 
 const Achievements = () => {
+	const smallScreen = useMediaQuery("(max-width: 586px)");
+
 	return (
-		<Box mb={"50px"}>
+		<Box>
 			<Fade bottom>
 				<Text
 					align="center"
 					fw="bold"
-					fz={32}
+					fz={smallScreen ? 28 : 32}
 					mb="md"
 					color="blue"
 					tt="uppercase">

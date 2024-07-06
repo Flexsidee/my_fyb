@@ -23,7 +23,7 @@ const images = [
 	},
 	{
 		id: 4,
-		imageUrl: "fyp-images/Day3-Luncheon/1.jpg",
+		imageUrl: "fyp-images/Day3-Luncheon/5.jpg",
 		caption: "Ankara Luncheon",
 	},
 	// {

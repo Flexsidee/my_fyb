@@ -1,13 +1,17 @@
-import { Box } from "@mantine/core";
+import { Box, Container } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 
 import { DayLayout } from "../components";
 
 const Days = () => {
+	const smallScreen = useMediaQuery("(max-width: 586px)");
+
 	const fyp = [
 		{
 			id: 6,
 			date: "19 Jun 2024",
 			name: "Project Defense",
+			description: `On this day, I presented my final year project (thesis) to a panel of lecturers and supervisors. It was a culmination of my hard work and dedication throughout the year. I am thrilled to share that I passed with flying colors.`,
 			images: [
 				{
 					id: 1,
@@ -65,6 +69,7 @@ const Days = () => {
 			id: 1,
 			date: "21 Jun 2024",
 			name: "Old Money Dinner",
+			description: `This event was a special themed dinner for the graduating set, with an "old money" theme. We dressed in classic, elegant styles reminiscent of bygone eras. It was a memorable evening filled with nostalgia and celebration.`,
 			images: [
 				{
 					id: 1,
@@ -112,6 +117,7 @@ const Days = () => {
 			id: 2,
 			date: "04 Jul 2024",
 			name: "Jersey Day",
+			description: `Jersey Day was a fun-filled day where we wore jerseys representing our various halls of residence. The day was packed with sports activities, including track events and a spirited tug of war. It was a great way to showcase our hall pride and bond with fellow students.`,
 			images: [
 				{
 					id: 1,
@@ -134,6 +140,7 @@ const Days = () => {
 			id: 3,
 			date: "05 Jul 2024",
 			name: "Ankara Luncheon",
+			description: `The Ankara Luncheon was an event for final year students where we all dressed in vibrant Ankara fabric. It was a colorful and joyous occasion, celebrating our heritage and the journey we had undertaken together.`,
 			images: [
 				{
 					id: 1,
@@ -166,6 +173,8 @@ const Days = () => {
 		// 	id: 4,
 		// 	date: "25 July 2024",
 		// 	name: "Sign Out Day",
+		// 	description: `This day marked the end of my academic journey as I wrote my final exam. In line with the tradition in Nigerian universities, I wore a white shirt which my classmates signed as a memento. It was a bittersweet moment, filled with a sense of achievement and nostalgia.
+		// 						`,
 		// 	images: [
 		// 		{
 		// 			id: 1,
@@ -178,6 +187,8 @@ const Days = () => {
 		// 	id: 5,
 		// 	date: "28 July 2024",
 		// 	name: "Thanksgiving Service",
+		// 	description: `After completing all exams, we attended a special Thanksgiving service at church. It was a time to reflect on our journey and express our gratitude to God for His guidance and blessings throughout our time at the university.
+		// 						`,
 		// 	images: [
 		// 		{
 		// 			id: 1,
@@ -189,16 +200,19 @@ const Days = () => {
 	];
 
 	return (
-		<Box>
-			{fyp.map((day) => (
-				<DayLayout
-					date={day.date}
-					images={day.images}
-					key={day.id}
-					name={day.name}
-					number={day.id}
-				/>
-			))}
+		<Box bg="main.0" pb={50} pt={smallScreen ? 20 : 50}>
+			<Container>
+				{fyp.map((day) => (
+					<DayLayout
+						date={day.date}
+						description="On this day, I presented my final year project (thesis) to a panel of lecturers and supervisors. It was a culmination of my hard work and dedication throughout the year. I am thrilled to share that I passed with flying colors."
+						images={day.images}
+						key={day.id}
+						name={day.name}
+						number={day.id}
+					/>
+				))}
+			</Container>
 		</Box>
 	);
 };
