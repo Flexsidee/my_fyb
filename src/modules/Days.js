@@ -220,7 +220,7 @@ const fyp = [
 const Days = () => {
 	const smallScreen = useMediaQuery("(max-width: 586px)");
 	return (
-		<Box bg="main.0" pb={50} pt={smallScreen ? 20 : 50}>
+		<Box  >
 			<Fade bottom>
 				<Text
 					align="center"
