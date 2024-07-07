@@ -15,11 +15,11 @@ const Footer = () => {
 	const mediumScreen = useMediaQuery("(max-width: 786px)");
 
 	return (
-		<Box className={classes.footer} py="lg">
+		<Box className={classes.footer} py="xl">
 			<Fade bottom>
-				<Group position="apart" className={classes.link}>
+				<Group position="apart" className={classes.link} mb="lg">
 					<Text color="white" mr={mediumScreen ? 0 : 400}>
-						Connect with Somade:{" "}
+						Connect with Somade{" "}
 					</Text>
 					<Group>
 						<ActionIcon

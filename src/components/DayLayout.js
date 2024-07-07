@@ -13,18 +13,21 @@ const DayLayout = ({ date, description, images, name }) => {
 	return (
 		<Box mt={"80px"}>
 			<Fade bottom>
-				<Group position="apart">
+				<Group position="apart" align="center">
 					<Text
 						fw="bold"
-						fz={smallScreen ? 24 : 30}
+						fz={smallScreen ? 18 : 24}
 						mb="sm"
-						color="blue"
+						color="main.3"
 						tt="uppercase">
-						<Text component="span" style={{ borderBottom: "3px purple solid" }}>
+						<Text
+							component="span"
+							color="main.3"
+							style={{ borderBottom: "3px black solid" }}>
 							{name}
 						</Text>
 					</Text>
-					<Text fw="bold" color="main.3" fz={20}>
+					<Text fw="bold" color="main.3" fz={smallScreen ? 16 : 20}>
 						{date}
 					</Text>
 				</Group>
