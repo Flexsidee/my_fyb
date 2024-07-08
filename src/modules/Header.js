@@ -1,5 +1,13 @@
 // import { Box, Image } from "@mantine/core";
 // import { Carousel } from "@mantine/carousel";
+import {
+	Header as MantineHeader,
+	Container,
+	Group,
+	Anchor,
+	Image,
+	Text,
+} from "@mantine/core";
 
 import { Zoom } from "react-reveal";
 
@@ -39,10 +47,16 @@ const images = [
 ];
 
 const Header = () => {
+	const scrollToSection = (id) => {
+		const element = document.getElementById(id);
+		if (element) {
+			element.scrollIntoView({ behavior: "smooth" });
+		}
+	};
 	return (
 		<>
-			<Zoom>
-				{/* <Box style={{ maxHeight: "100vh", display: "flex" }}>
+			{/* <Zoom> */}
+			{/* <Box style={{ maxHeight: "100vh", display: "flex" }}>
 				<Carousel
 					mx="auto"
 					height="100%"
@@ -57,8 +71,41 @@ const Header = () => {
 					))}
 				</Carousel>
 			</Box> */}
-				<Slideshow slides={images} />;
-			</Zoom>
+			{/* <Slideshow slides={images} />;
+			</Zoom> */}
+
+			<MantineHeader height={60} p="xs">
+				<Container>
+					<Group position="apart">
+						<div>
+							{/* Replace with your logo image */}
+							<Text fw="bold" fz="xl" color="main.3" tt="uppercase">
+								Somade Daniel
+							</Text>
+						</div>
+						<Group>
+							<Anchor
+								href="#about"
+								size="md"
+								oncClick={() => scrollToSection("about")}>
+								About
+							</Anchor>
+							<Anchor href="#achievements" size="md">
+								Achievements
+							</Anchor>
+							<Anchor href="#timeline" size="md">
+								Final Year Timeline
+							</Anchor>
+							<Anchor href="#future-plan" size="md">
+								Future Plan
+							</Anchor>
+							<Anchor href="#appreciation" size="md">
+								Appreciation
+							</Anchor>
+						</Group>
+					</Group>
+				</Container>
+			</MantineHeader>
 		</>
 	);
 };

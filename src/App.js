@@ -1,32 +1,32 @@
 import { Box, Container } from "@mantine/core";
-import { useMediaQuery } from "@mantine/hooks";
 
 import {
 	About,
 	Achievements,
+	AppNavbar,
 	Days,
 	Footer,
 	Friends,
 	FuturePlan,
-	Header,
 } from "./modules";
 
 const App = () => {
-	const smallScreen = useMediaQuery("(max-width: 586px)");
 	return (
 		<Box>
-			<Header />
-			<Container pt={smallScreen ? 30 : 100}>
-				<About />
-			</Container>
-			<Achievements />
-			<Container py={smallScreen ? 50 : 100}>
-				<Days />
-			</Container>
-			<FuturePlan />
-			<Container py={smallScreen ? 50 : 100}>
-				<Friends />
-			</Container>
+			<AppNavbar />
+			<main style={{ paddingTop: "60px" }}>
+				<Container pt={50} id="about">
+					<About />
+				</Container>
+				<Achievements />
+				<Container>
+					<Days />
+				</Container>
+				<FuturePlan />
+				<Container>
+					<Friends />
+				</Container>
+			</main>
 			<Footer />
 		</Box>
 	);

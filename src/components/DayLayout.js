@@ -11,7 +11,7 @@ const DayLayout = ({ date, description, images, name }) => {
 	const smallScreen = useMediaQuery("(max-width: 586px)");
 
 	return (
-		<Box mt={"80px"}>
+		<Box mb={"50px"}>
 			<Fade bottom>
 				<>
 					<Group position="apart" align="center">

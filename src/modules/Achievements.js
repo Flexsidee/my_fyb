@@ -109,13 +109,14 @@ const Achievements = () => {
 	const smallScreen = useMediaQuery("(max-width: 586px)");
 
 	return (
-		<Box bg="main.0" py={smallScreen ? 20 : 80}>
+		<Box bg="main.0" py={smallScreen ? 20 : 80} id="achievements">
 			<Fade bottom>
 				<Text
 					align="center"
 					fw="bold"
 					fz={smallScreen ? 28 : 32}
 					mb="md"
+					mt={50}
 					color="blue"
 					tt="uppercase">
 					<Text component="span" style={{ borderBottom: "3px purple solid" }}>

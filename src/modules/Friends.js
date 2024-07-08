@@ -177,13 +177,14 @@ const Friends = () => {
 	const smallScreen = useMediaQuery("(max-width: 586px)");
 
 	return (
-		<Box>
+		<Box id="appreciation" py={smallScreen ? 50 : 100}>
 			<Fade bottom>
 				<Text
 					align="center"
 					fw="bold"
 					fz={smallScreen ? 28 : 32}
 					mb="md"
+					mt={60}
 					color="blue"
 					tt="uppercase">
 					<Text component="span" style={{ borderBottom: "3px purple solid" }}>
@@ -200,7 +201,7 @@ const Friends = () => {
 						have made a significant impact on my academic and personal growth.
 					</Text>
 				</Fade>
-				<Box>
+				<Box mt="lg">
 					{appreciations.map((appreciation) => (
 						<DayLayout
 							key={appreciation.id}

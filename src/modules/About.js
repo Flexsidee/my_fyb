@@ -12,6 +12,7 @@ const About = () => {
 					fw="bold"
 					fz={smallScreen ? 28 : 32}
 					mb="md"
+					mt={60}
 					color="blue"
 					tt="uppercase">
 					<Text component="span" style={{ borderBottom: "3px purple solid" }}>

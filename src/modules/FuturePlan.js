@@ -2,23 +2,17 @@ import { Box, Container, Text } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { Fade } from "react-reveal";
 
-const futurePlan = [
-	{
-		id: 1,
-		title: "Career Aspirations",
-		description: `After graduation, my immediate plan is to return to Fieldbase Services Limited, where I will work full-time and continue to develop my skills as a software developer. When the time comes, I will participate in the National Youth Service Corps (NYSC) for one year, contributing my skills to community development.`,
-	},
-];
 const FuturePlan = () => {
 	const smallScreen = useMediaQuery("(max-width: 586px)");
 	return (
-		<Box bg="main.0" py={smallScreen ? 20 : 80}>
+		<Box bg="main.0" py={smallScreen ? 20 : 80} id="future-plan">
 			<Fade bottom>
 				<Text
 					align="center"
 					fw="bold"
 					fz={smallScreen ? 28 : 32}
 					mb="md"
+					mt={60}
 					color="blue"
 					tt="uppercase">
 					<Text component="span" style={{ borderBottom: "3px purple solid" }}>
