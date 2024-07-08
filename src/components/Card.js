@@ -9,8 +9,7 @@ const Card = ({ imageUrl, category }) => {
 			p="xl"
 			radius="md"
 			sx={{ backgroundImage: `url(${imageUrl})` }}
-			className={classes.card}
-		>
+			className={classes.card}>
 			<div>
 				<Text className={classes.category} size="md">
 					{category}
@@ -35,7 +34,7 @@ const useStyles = createStyles((theme) => ({
 
 	category: {
 		color: theme.white,
-		opacity: 0.7,
+		opacity: 0.9,
 		fontWeight: 700,
 		textTransform: "uppercase",
 	},
