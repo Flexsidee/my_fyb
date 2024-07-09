@@ -23,7 +23,7 @@ const appreciations = [
 			{
 				id: 3,
 				category: "The Ahmeds",
-				imageUrl: "/family/3.jpg",
+				imageUrl: "/family/3.webp",
 			},
 		],
 	},
@@ -41,7 +41,7 @@ const appreciations = [
 			{
 				id: 2,
 				category: "Dr Adeniyi Akanni",
-				imageUrl: "/lecturers/2.webp",
+				imageUrl: "/lecturers/4.jpg",
 			},
 			{
 				id: 3,

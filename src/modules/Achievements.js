@@ -7,7 +7,7 @@ const achievements = [
 		id: 1,
 		title:
 			"Pioneer GDSC (Google Developer Student Club) Lead (Aug 2023 - July 2024)",
-		imageUrl: "/ach-images/gdsc1.jpeg",
+		imageUrl: "/ach-images/gdsc1.webp",
 		imgAlt: "I and my GDSC Caleb Core Team Members",
 		description: `	As the Pioneer Lead for Google Developer Student Clubs (GDSC) at
 							our university, I organized workshops, hackathons, and study
@@ -17,7 +17,7 @@ const achievements = [
 	{
 		id: 2,
 		title: "Vice President and Acting President, NACOS (Aug 2023 - July 2024)",
-		imageUrl: "/ach-images/nacos.jpeg",
+		imageUrl: "/ach-images/nacos.webp",
 		imgAlt: "Pioneer NACOS Caleb Chapter Executives",
 		description: `Served as Vice President for the Pioneer Nigeria Association of
 						Computing Students (NACOS), Caleb Chapter Executives. Subsequently,
@@ -27,7 +27,9 @@ const achievements = [
 	{
 		id: 3,
 		title: "NCS 12th Annual IT Development Programme (Nov 2022)",
-		imageUrl: "/ach-images/ncs12b.jpeg",
+		// imageUrl: "/ach-images/ncs12b.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1720505429/ncs12b_mptpds.jpg",
 		imgAlt: "The team and coach with our awards and solution banner",
 		description: `Represented the university at the Nigeria Computer Society (NCS),
 						Ogun State Chapter, in their 12th Annual Information Technology
@@ -40,7 +42,7 @@ const achievements = [
 	{
 		id: 4,
 		title: "TechXplore Convention (Nov 2023)",
-		imageUrl: "/ach-images/xplore1.jpeg",
+		imageUrl: "/ach-images/xplore1.webp",
 		imgAlt: "The team getting an award of participation from BUCC President",
 		description: `Led the university team to the TechXplore Convention organized by
 						Babcock University Computer Club (BUCC) at Babcock University.
@@ -50,7 +52,7 @@ const achievements = [
 	{
 		id: 5,
 		title: "NCS 13th Annual IT Development Programme (Jan 2024)",
-		imageUrl: "/ach-images/ncs13a.jpeg",
+		imageUrl: "/ach-images/ncs13a.webp",
 		imgAlt: "The team and coach after arriving at the venue",
 		description: `Represented the university and led the team in the 13th Annual
 						Information Technology Development Programme organized by NCS at
@@ -63,7 +65,7 @@ const achievements = [
 	{
 		id: 6,
 		title: "CAVIER Development (Jun 2024)",
-		imageUrl: "/ach-images/cavier1.jpeg",
+		imageUrl: "/ach-images/cavier1.webp",
 		imgAlt: "Image of the team with VC, DVC and other dignataries with CAVEIR",
 		description: `	Contributed to the development of CAVIER (Caleb Autonomous
 						Intelligent Versed Robot), an automated robotics receptionist and
@@ -73,9 +75,16 @@ const achievements = [
 						project.`,
 	},
 	{
+		id: 10,
+		title: "SOAIR Presentation at Nigerian Airforce Base (July 2024)",
+		imageUrl: "/ach-images/soair.webp",
+		imgAlt: "Image of Caleb University students at SOAIR in Air",
+		description: `Invited to the School Of AI and Robotics (SOAIR) at the Nigerian Airforce Base, Ikeja, Lagos, along with other students, to present CAVIER and other projects, including the NFC Payment project. This was a prestigious opportunity to showcase our innovations to military officials.`,
+	},
+	{
 		id: 7,
 		title: "VC Cup Victory (Jun 2024)",
-		imageUrl: "/ach-images/vc.jpg",
+		imageUrl: "/ach-images/vc.webp",
 		imgAlt: "Image of computer science representatives and awards won",
 		description: `Contributed to the computer science department's historic victory in
 						the first-ever VC Cup. This achievement highlighted our department's
@@ -96,7 +105,7 @@ const achievements = [
 	{
 		id: 9,
 		title: "Mentorship and Motivation",
-		imageUrl: "/ach-images/run.jpeg",
+		imageUrl: "/ach-images/run.webp",
 		imgAlt: "Image of me and my guys at Lagos City Marathon",
 		description: `Actively mentored and motivated numerous students in areas such as
 						academics, programming, and fitness. Helped them improve their

@@ -13,32 +13,32 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				imageUrl: "fyp-images/Day6-Defense/1.jpg",
+				imageUrl: "fyp-images/Day6-Defense/1.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 2,
-				imageUrl: "fyp-images/Day6-Defense/2.jpg",
+				imageUrl: "fyp-images/Day6-Defense/2.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 3,
-				imageUrl: "fyp-images/Day6-Defense/3.jpg",
+				imageUrl: "fyp-images/Day6-Defense/3.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 4,
-				imageUrl: "fyp-images/Day6-Defense/4.jpg",
+				imageUrl: "fyp-images/Day6-Defense/4.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 5,
-				imageUrl: "fyp-images/Day6-Defense/5.jpg",
+				imageUrl: "fyp-images/Day6-Defense/5.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 6,
-				imageUrl: "fyp-images/Day6-Defense/6.jpg",
+				imageUrl: "fyp-images/Day6-Defense/6.webp",
 				category: "Project Defense",
 			},
 			{
@@ -48,7 +48,7 @@ const fyp = [
 			},
 			{
 				id: 8,
-				imageUrl: "fyp-images/Day6-Defense/8.jpg",
+				imageUrl: "fyp-images/Day6-Defense/8.webp",
 				category: "Project Defense",
 			},
 			{
@@ -58,7 +58,7 @@ const fyp = [
 			},
 			{
 				id: 10,
-				imageUrl: "fyp-images/Day6-Defense/10.jpg",
+				imageUrl: "fyp-images/Day6-Defense/10.webp",
 				category: "Project Defense",
 			},
 		],
@@ -71,27 +71,27 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				imageUrl: "fyp-images/Day1-Dinner/1.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/1.webp",
 				category: "Dinner",
 			},
 			{
 				id: 2,
-				imageUrl: "fyp-images/Day1-Dinner/2.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/2.webp",
 				category: "Dinner",
 			},
 			{
 				id: 3,
-				imageUrl: "fyp-images/Day1-Dinner/3.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/3.webp",
 				category: "Dinner",
 			},
 			{
 				id: 4,
-				imageUrl: "fyp-images/Day1-Dinner/4.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/4.webp",
 				category: "Dinner",
 			},
 			{
 				id: 5,
-				imageUrl: "fyp-images/Day1-Dinner/5.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/5.webp",
 				category: "Dinner",
 			},
 			{
@@ -101,12 +101,12 @@ const fyp = [
 			},
 			{
 				id: 7,
-				imageUrl: "fyp-images/Day1-Dinner/7.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/7.webp",
 				category: "Dinner",
 			},
 			{
 				id: 8,
-				imageUrl: "fyp-images/Day1-Dinner/8.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/8.webp",
 				category: "Dinner",
 			},
 		],
@@ -119,27 +119,27 @@ const fyp = [
 		images: [
 			{
 				id: 2,
-				imageUrl: "fyp-images/Day2-Jersey/2.jpeg",
+				imageUrl: "fyp-images/Day2-Jersey/2.webp",
 				category: "Jersey",
 			},
 			{
 				id: 5,
-				imageUrl: "fyp-images/Day2-Jersey/5.jpg",
+				imageUrl: "fyp-images/Day2-Jersey/5.webp",
 				category: "Jersey",
 			},
 			{
 				id: 1,
-				imageUrl: "fyp-images/Day2-Jersey/1.jpeg",
+				imageUrl: "fyp-images/Day2-Jersey/1.webp",
 				category: "Jersey",
 			},
 			{
 				id: 4,
-				imageUrl: "fyp-images/Day2-Jersey/4.jpeg",
+				imageUrl: "fyp-images/Day2-Jersey/4.webp",
 				category: "Jersey",
 			},
 			{
 				id: 3,
-				imageUrl: "fyp-images/Day2-Jersey/3.jpeg",
+				imageUrl: "fyp-images/Day2-Jersey/3.webp",
 				category: "Jersey",
 			},
 		],
@@ -152,27 +152,27 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				imageUrl: "fyp-images/Day3-Luncheon/1.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/1.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 8,
-				imageUrl: "fyp-images/Day3-Luncheon/8.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/8.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 2,
-				imageUrl: "fyp-images/Day3-Luncheon/2.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/2.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 6,
-				imageUrl: "fyp-images/Day3-Luncheon/6.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/6.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 4,
-				imageUrl: "fyp-images/Day3-Luncheon/4.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/4.webp",
 				category: "Luncheon",
 			},
 			{
@@ -182,12 +182,12 @@ const fyp = [
 			},
 			{
 				id: 9,
-				imageUrl: "fyp-images/Day3-Luncheon/9.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/9.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 5,
-				imageUrl: "fyp-images/Day3-Luncheon/5.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/5.webp",
 				category: "Luncheon",
 			},
 		],
