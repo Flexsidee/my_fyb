@@ -1,5 +1,6 @@
 import { Box, Container, Image, List, Text } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
+import LazyLoad from "react-lazyload";
 import { Fade } from "react-reveal";
 
 const achievements = [
@@ -145,12 +146,16 @@ const Achievements = () => {
 									<br />
 									{ach.description}
 									{ach.imageUrl && (
-										<Image
-											src={ach.imageUrl}
-											height={smallScreen ? "200px" : "500px"}
-											radius="md"
-											mt="xs"
-										/>
+										<>
+											<LazyLoad offset={100}>
+												<Image
+													src={ach.imageUrl}
+													height={smallScreen ? "200px" : "500px"}
+													radius="md"
+													mt="xs"
+												/>
+											</LazyLoad>
+										</>
 									)}
 									<Text ta="center" color="main.3" mt={2}>
 										<em>{ach.imgAlt}</em>

@@ -1,21 +1,24 @@
 import { createStyles, Paper, Text, rem } from "@mantine/core";
+import LazyLoad from "react-lazyload";
 
 const Card = ({ imageUrl, category }) => {
 	const { classes } = useStyles();
 
 	return (
-		<Paper
-			shadow="md"
-			p="xl"
-			radius="md"
-			sx={{ backgroundImage: `url(${imageUrl})` }}
-			className={classes.card}>
-			<div>
-				<Text className={classes.category} size="md">
-					{category}
-				</Text>
-			</div>
-		</Paper>
+		<LazyLoad offset={100}>
+			<Paper
+				shadow="md"
+				p="xl"
+				radius="md"
+				sx={{ backgroundImage: `url(${imageUrl})` }}
+				className={classes.card}>
+				<div>
+					<Text className={classes.category} size="md">
+						{category}
+					</Text>
+				</div>
+			</Paper>
+		</LazyLoad>
 	);
 };
 
