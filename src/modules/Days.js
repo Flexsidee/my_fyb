@@ -181,6 +181,11 @@ const fyp = [
 				category: "Luncheon",
 			},
 			{
+				id: 9,
+				imageUrl: "fyp-images/Day3-Luncheon/9.jpg",
+				category: "Luncheon",
+			},
+			{
 				id: 5,
 				imageUrl: "fyp-images/Day3-Luncheon/5.jpg",
 				category: "Luncheon",

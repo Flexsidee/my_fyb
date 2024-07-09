@@ -18,7 +18,12 @@ const appreciations = [
 			{
 				id: 2,
 				category: "Brother, Sister, Niece and Mum",
-				imageUrl: "/family/2.jpg",
+				imageUrl: "/family/2.webp",
+			},
+			{
+				id: 3,
+				category: "The Ahmeds",
+				imageUrl: "/family/3.jpg",
 			},
 		],
 	},
@@ -31,12 +36,12 @@ const appreciations = [
 			{
 				id: 1,
 				category: "Dr Emmanuel Ajulo",
-				imageUrl: "/lecturers/1.jpg",
+				imageUrl: "/lecturers/1.webp",
 			},
 			{
 				id: 2,
 				category: "Dr Adeniyi Akanni",
-				imageUrl: "/lecturers/2.jpg",
+				imageUrl: "/lecturers/2.webp",
 			},
 			{
 				id: 3,
@@ -75,12 +80,12 @@ const appreciations = [
 			{
 				id: 2,
 				category: "Tunmise Ogunniyi",
-				imageUrl: "/friends/2.jpg",
+				imageUrl: "/friends/2.webp",
 			},
 			{
 				id: 3,
 				category: "Ifeanyi, Elizabeth & Isreal",
-				imageUrl: "/friends/3.jpg",
+				imageUrl: "/friends/3.webp",
 			},
 			{
 				id: 4,
@@ -89,13 +94,13 @@ const appreciations = [
 			},
 			{
 				id: 5,
-				category: "John, Joshua & Isreal",
-				imageUrl: "/friends/5.jpg",
+				category: "John, Joshua, Dolamu & Isreal",
+				imageUrl: "/friends/5.webp",
 			},
 			{
 				id: 6,
 				category: "Temi Abiodun",
-				imageUrl: "/friends/6.jpg",
+				imageUrl: "/friends/6.webp",
 			},
 			{
 				id: 7,
@@ -105,17 +110,17 @@ const appreciations = [
 			{
 				id: 8,
 				category: "Enoch",
-				imageUrl: "/friends/8.jpg",
+				imageUrl: "/friends/8.webp",
 			},
 			{
 				id: 9,
 				category: "Ifeanyi, Fiyin, Shile & Opara",
-				imageUrl: "/friends/9.jpg",
+				imageUrl: "/friends/9.webp",
 			},
 			{
 				id: 10,
 				category: "Dolapo Oyesola",
-				imageUrl: "/friends/10.jpg",
+				imageUrl: "/friends/10.webp",
 			},
 			{
 				id: 11,
@@ -125,12 +130,12 @@ const appreciations = [
 			{
 				id: 12,
 				category: "Caleb Emelu",
-				imageUrl: "/friends/12.jpg",
+				imageUrl: "/friends/12.webp",
 			},
 			{
 				id: 13,
 				category: "CAVEIR Team",
-				imageUrl: "/friends/13.jpg",
+				imageUrl: "/friends/13.webp",
 			},
 			{
 				id: 14,
@@ -140,7 +145,7 @@ const appreciations = [
 			{
 				id: 15,
 				category: "Timmy and John",
-				imageUrl: "/friends/15.jpg",
+				imageUrl: "/friends/15.webp",
 			},
 		],
 	},
@@ -152,22 +157,22 @@ const appreciations = [
 			{
 				id: 1,
 				category: "",
-				imageUrl: "/gf/1.jpg",
+				imageUrl: "/gf/1.webp",
 			},
 			{
 				id: 2,
 				category: "",
-				imageUrl: "/gf/2.jpg",
+				imageUrl: "/gf/2.webp",
 			},
 			{
 				id: 3,
 				category: "",
-				imageUrl: "/gf/3.jpg",
+				imageUrl: "/gf/3.webp",
 			},
 			{
 				id: 3,
 				category: "",
-				imageUrl: "/gf/4.jpg",
+				imageUrl: "/gf/4.webp",
 			},
 		],
 	},
