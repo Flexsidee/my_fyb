@@ -9,8 +9,8 @@ const achievements = [
 		title:
 			"Pioneer GDSC (Google Developer Student Club) Lead (Aug 2023 - July 2024)",
 		imageUrl: "/ach-images/gdsc1.webp",
-		imgAlt: "I and my GDSC Caleb Core Team Members",
-		description: `	As the Pioneer Lead for Google Developer Student Clubs (GDSC) at
+		imgAlt: "GDSC Caleb Core Team Members",
+		description: `As the Pioneer Lead for Google Developer Student Clubs (GDSC) at
 							our university, I organized workshops, hackathons, and study
 							groups to foster a community of developers and tech enthusiasts.
 		`,
@@ -27,41 +27,29 @@ const achievements = [
 	},
 	{
 		id: 3,
+		title: "NCS 13th Annual IT Development Programme (Jan 2024)",
+		imageUrl: "/ach-images/ncs13a.webp",
+		imgAlt: "The team and coach after arriving at the venue",
+		description: `Represented the university and led the team in the 13th Annual Information Technology Development Programme organized by NCS at Federal University of Agriculture Abeokuta (FUNAAB). Personally excelled in the Quiz category, finishing 1st with a score of 98/100. Additionally, the university team came 2nd in the IT Innovation Presentation Contest and 2nd in the Software Challenge, to which I contributed.`,
+	},
+	{
+		id: 4,
 		title: "NCS 12th Annual IT Development Programme (Nov 2022)",
 		// imageUrl: "/ach-images/ncs12b.webp",
 		imageUrl:
 			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1720505429/ncs12b_mptpds.jpg",
 		imgAlt: "The team and coach with our awards and solution banner",
-		description: `Represented the university at the Nigeria Computer Society (NCS),
-						Ogun State Chapter, in their 12th Annual Information Technology
-						Development Programme at Bells University. Finished 2nd in the
-						Software Challenge and 4th in the Quiz, competing against numerous
-						tertiary institutions. Additionally, the university team finished
-						2nd in the IT Innovation Presentation Contest, to which I
-						contributed.`,
+		description: `Represented the university at the Nigeria Computer Society (NCS), Ogun State Chapter, in their 12th Annual Information Technology Development Programme at Bells University. Finished 2nd in the Software Challenge and 4th in the Quiz, competing against numerous tertiary institutions. Additionally, the university team finished 2nd in the IT Innovation Presentation Contest, to which I contributed.`,
 	},
 	{
-		id: 4,
-		title: "TechXplore Convention (Nov 2023)",
+		id: 5,
+		title: "BUCC TechXplore Convention (Nov 2023)",
 		imageUrl: "/ach-images/xplore1.webp",
 		imgAlt: "The team getting an award of participation from BUCC President",
 		description: `Led the university team to the TechXplore Convention organized by
 						Babcock University Computer Club (BUCC) at Babcock University.
 						Participated and represented the university in various tech-related
 						events and discussions.`,
-	},
-	{
-		id: 5,
-		title: "NCS 13th Annual IT Development Programme (Jan 2024)",
-		imageUrl: "/ach-images/ncs13a.webp",
-		imgAlt: "The team and coach after arriving at the venue",
-		description: `Represented the university and led the team in the 13th Annual
-						Information Technology Development Programme organized by NCS at
-						Federal University of Agriculture Abeokuta (FUNAAB). Personally
-						excelled in the Quiz category, finishing 1st with a score of 98/100.
-						Additionally, the university team came 2nd in the IT Innovation
-						Presentation Contest and 2nd in the Software Challenge, to which I
-						contributed.`,
 	},
 	{
 		id: 6,
@@ -76,27 +64,10 @@ const achievements = [
 						project.`,
 	},
 	{
-		id: 10,
-		title: "SOAIR Presentation at Nigerian Airforce Base (July 2024)",
-		imageUrl: "/ach-images/soair.webp",
-		imgAlt: "Image of Caleb University students at SOAIR in Air",
-		description: `Invited to the School Of AI and Robotics (SOAIR) at the Nigerian Airforce Base, Ikeja, Lagos, along with other students, to present CAVIER and other projects, including the NFC Payment project. This was a prestigious opportunity to showcase our innovations to military officials.`,
-	},
-	{
 		id: 7,
-		title: "VC Cup Victory (Jun 2024)",
-		imageUrl: "/ach-images/vc.webp",
-		imgAlt: "Image of computer science representatives and awards won",
-		description: `Contributed to the computer science department's historic victory in
-						the first-ever VC Cup. This achievement highlighted our department's
-						excellence and teamwork.`,
-	},
-	{
-		id: 8,
 		title: "NFC Payment Project (Jan 2023)",
-		imageUrl: "/ach-images/motivateion.png",
-		imgAlt:
-			"Image of me when i was explaining the project functionalities to my collegues",
+		imageUrl: "/ach-images/motivateion.webp",
+		imgAlt: "Explaining the project functionalities to colleagues",
 		description: `Contributed to the development of an NFC Payment project, an IoT
 						solution using NFC cards for payments across the institution. The
 						prototype was displayed at an exhibition attended by important
@@ -104,14 +75,45 @@ const achievements = [
 						Bursar, staff, and students.`,
 	},
 	{
+		id: 8,
+		title: "SOAIR Presentation at Nigerian Airforce Base (July 2024)",
+		imageUrl: "/ach-images/soair.webp",
+		imgAlt: "Caleb University Represenatives at SOAIR in Air",
+		description: `Invited to the School Of AI and Robotics (SOAIR) at the Nigerian Airforce Base, Ikeja, Lagos, along with other students, to present CAVIER and other projects, including the NFC Payment project. This was a prestigious opportunity to showcase our innovations to military officials.`,
+	},
+	{
 		id: 9,
+		title: "VC Cup Victory (Jun 2024)",
+		imageUrl: "/ach-images/vc.webp",
+		imgAlt: "Computer Science representatives and awards won",
+		description: `Contributed to the computer science department's historic victory in
+						the first-ever VC Cup. This achievement highlighted our department's
+						excellence and teamwork.`,
+	},
+	{
+		id: 10,
 		title: "Mentorship and Motivation",
 		imageUrl: "/ach-images/run.webp",
-		imgAlt: "Image of me and my guys at Lagos City Marathon",
+		imgAlt:
+			"Participating in Lagos City Marathon with friends from the university (Feb 2024)",
 		description: `Actively mentored and motivated numerous students in areas such as
 						academics, programming, and fitness. Helped them improve their
 						academic performance, career prospects, and physical health through
 						running and workouts.`,
+	},
+	{
+		id: 11,
+		title: "Invited to talk on air at Caleb Radio (Jan 2023)",
+		imageUrl: "/ach-images/radio.webp",
+		imgAlt: "At the studio with colleagues",
+		description: `Invited twice to speak at the studio. The first time was to discuss the software solution we presented at the NCS 12th Annual IT Development Programme. The second time was to talk about the NFC Project I worked on.`,
+	},
+	{
+		id: 12,
+		title: "Invited to Caleb News Room (July 2024)",
+		imageUrl: "/ach-images/news.webp",
+		imgAlt: "With the CAVIER team at Caleb News Room",
+		description: `Invited to an interview at the newsroom to discuss the inception, development, challenges, journey, and presentation of CAVIER at the Nigeria Air Force Base.`,
 	},
 ];
 
@@ -130,7 +132,8 @@ const Achievements = () => {
 					color="blue"
 					tt="uppercase">
 					<Text component="span" style={{ borderBottom: "3px purple solid" }}>
-						Achievements in Caleb University
+						Achievements
+						{/* in Caleb University */}
 					</Text>
 				</Text>
 			</Fade>
