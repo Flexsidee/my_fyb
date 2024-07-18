@@ -8,7 +8,9 @@ const achievements = [
 		id: 1,
 		title:
 			"Pioneer GDSC (Google Developer Student Club) Lead (Aug 2023 - July 2024)",
-		imageUrl: "/ach-images/gdsc1.webp",
+		// imageUrl: "/ach-images/gdsc1.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269675/gdsc1_hacwx5.webp",
 		imgAlt: "GDSC Caleb Core Team Members",
 		description: `As the Pioneer Lead for Google Developer Student Clubs (GDSC) at
 							our university, I organized workshops, hackathons, and study
@@ -18,7 +20,9 @@ const achievements = [
 	{
 		id: 2,
 		title: "Vice President and Acting President, NACOS (Aug 2023 - July 2024)",
-		imageUrl: "/ach-images/nacos.webp",
+		// imageUrl: "/ach-images/nacos.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269675/nacos_vqkr6k.webp",
 		imgAlt: "Pioneer NACOS Caleb Chapter Executives",
 		description: `Served as Vice President for the Pioneer Nigeria Association of
 						Computing Students (NACOS), Caleb Chapter Executives. Subsequently,
@@ -28,7 +32,8 @@ const achievements = [
 	{
 		id: 3,
 		title: "NCS 13th Annual IT Development Programme (Jan 2024)",
-		imageUrl: "/ach-images/ncs13a.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269676/ncs13a_tu98nw.webp",
 		imgAlt: "The team and coach after arriving at the venue",
 		description: `Represented the university and led the team in the 13th Annual Information Technology Development Programme organized by NCS at Federal University of Agriculture Abeokuta (FUNAAB). Personally excelled in the Quiz category, finishing 1st with a score of 98/100. Additionally, the university team came 2nd in the IT Innovation Presentation Contest and 2nd in the Software Challenge, to which I contributed.`,
 	},
@@ -37,14 +42,16 @@ const achievements = [
 		title: "NCS 12th Annual IT Development Programme (Nov 2022)",
 		// imageUrl: "/ach-images/ncs12b.webp",
 		imageUrl:
-			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1720505429/ncs12b_mptpds.jpg",
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269677/ncs12b_th0d8r.webp",
 		imgAlt: "The team and coach with our awards and solution banner",
 		description: `Represented the university at the Nigeria Computer Society (NCS), Ogun State Chapter, in their 12th Annual Information Technology Development Programme at Bells University. Finished 2nd in the Software Challenge and 4th in the Quiz, competing against numerous tertiary institutions. Additionally, the university team finished 2nd in the IT Innovation Presentation Contest, to which I contributed.`,
 	},
 	{
 		id: 5,
 		title: "BUCC TechXplore Convention (Nov 2023)",
-		imageUrl: "/ach-images/xplore1.webp",
+		// imageUrl: "/ach-images/xplore1.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269678/xplore1_hiid5u.webp",
 		imgAlt: "The team getting an award of participation from BUCC President",
 		description: `Led the university team to the TechXplore Convention organized by
 						Babcock University Computer Club (BUCC) at Babcock University.
@@ -54,7 +61,9 @@ const achievements = [
 	{
 		id: 6,
 		title: "CAVIER Development (Jun 2024)",
-		imageUrl: "/ach-images/cavier1.webp",
+		// imageUrl: "/ach-images/cavier1.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269675/cavier1_sxknqs.webp",
 		imgAlt: "Image of the team with VC, DVC and other dignataries with CAVEIR",
 		description: `	Contributed to the development of CAVIER (Caleb Autonomous
 						Intelligent Versed Robot), an automated robotics receptionist and
@@ -66,7 +75,8 @@ const achievements = [
 	{
 		id: 7,
 		title: "NFC Payment Project (Jan 2023)",
-		imageUrl: "/ach-images/motivateion.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269674/motivateion_l37wat.webp",
 		imgAlt: "Explaining the project functionalities to colleagues",
 		description: `Contributed to the development of an NFC Payment project, an IoT
 						solution using NFC cards for payments across the institution. The
@@ -77,14 +87,18 @@ const achievements = [
 	{
 		id: 8,
 		title: "SOAIR Presentation at Nigerian Airforce Base (July 2024)",
-		imageUrl: "/ach-images/soair.webp",
+		// imageUrl: "/ach-images/soair.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269677/soair_yleat3.webp",
 		imgAlt: "Caleb University Represenatives at SOAIR in Air",
 		description: `Invited to the School Of AI and Robotics (SOAIR) at the Nigerian Airforce Base, Ikeja, Lagos, along with other students, to present CAVIER and other projects, including the NFC Payment project. This was a prestigious opportunity to showcase our innovations to military officials.`,
 	},
 	{
 		id: 9,
 		title: "VC Cup Victory (Jun 2024)",
-		imageUrl: "/ach-images/vc.webp",
+		// imageUrl: "/ach-images/vc.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269677/vc_cy6i71.webp",
 		imgAlt: "Computer Science representatives and awards won",
 		description: `Contributed to the computer science department's historic victory in
 						the first-ever VC Cup. This achievement highlighted our department's
@@ -93,7 +107,9 @@ const achievements = [
 	{
 		id: 10,
 		title: "Mentorship and Motivation",
-		imageUrl: "/ach-images/run.webp",
+		// imageUrl: "/ach-images/run.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269677/run_xnf2bh.webp",
 		imgAlt:
 			"Participating in Lagos City Marathon with friends from the university (Feb 2024)",
 		description: `Actively mentored and motivated numerous students in areas such as
@@ -104,14 +120,18 @@ const achievements = [
 	{
 		id: 11,
 		title: "Invited to talk on air at Caleb Radio (Jan 2023)",
-		imageUrl: "/ach-images/radio.webp",
+		// imageUrl: "/ach-images/radio.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269674/radio_tgqr2r.webp",
 		imgAlt: "At the studio with colleagues",
 		description: `Invited twice to speak at the studio. The first time was to discuss the software solution we presented at the NCS 12th Annual IT Development Programme. The second time was to talk about the NFC Project I worked on.`,
 	},
 	{
 		id: 12,
 		title: "Invited to Caleb News Room (July 2024)",
-		imageUrl: "/ach-images/news.webp",
+		// imageUrl: "/ach-images/news.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269674/news_zcuqbc.webp",
 		imgAlt: "With the CAVIER team at Caleb News Room",
 		description: `Invited to an interview at the newsroom to discuss the inception, development, challenges, journey, and presentation of CAVIER at the Nigeria Air Force Base.`,
 	},
