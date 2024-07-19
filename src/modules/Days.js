@@ -135,7 +135,7 @@ const fyp = [
 				id: 7,
 				// imageUrl: "fyp-images/Day1-Dinner/7.webp",
 				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270020/7_ffji88.webpp",
+					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270020/7_ffji88.webp",
 				category: "Dinner",
 			},
 			{
