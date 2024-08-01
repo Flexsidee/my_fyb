@@ -1,5 +1,6 @@
-import { Box, Container, Image, List, Text } from "@mantine/core";
+import { Box, Container, Image, List, Skeleton, Text } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
+import { useState } from "react";
 import LazyLoad from "react-lazyload";
 import { Fade } from "react-reveal";
 
@@ -139,6 +140,19 @@ const achievements = [
 
 const Achievements = () => {
 	const smallScreen = useMediaQuery("(max-width: 586px)");
+	const [imageLoading, setImageLoading] = useState(
+		achievements.reduce((acc, ach) => {
+			acc[ach.id] = true;
+			return acc;
+		}, {})
+	);
+
+	const handleImageLoad = (id) => {
+		setImageLoading((prevState) => ({
+			...prevState,
+			[id]: false,
+		}));
+	};
 
 	return (
 		<Box bg="main.0" py={smallScreen ? 20 : 80} id="achievements">
@@ -170,20 +184,28 @@ const Achievements = () => {
 									{ach.description}
 									{ach.imageUrl && (
 										<>
-											<LazyLoad offset={100}>
+											<LazyLoad>
+												{imageLoading[ach.id] && (
+													<Skeleton height={440} radius="md" />
+												)}
 												<Image
 													src={ach.imageUrl}
+													alt={ach.imgAlt}
+													style={{
+														display: imageLoading[ach.id] ? "none" : "block",
+													}}
+													onLoad={() => handleImageLoad(ach.id)}
 													height={smallScreen ? "200px" : "500px"}
 													radius="md"
 													mt="xs"
 												/>
+												<Text ta="center" color="main.3" mt={2}>
+													<em>{ach.imgAlt}</em>
+												</Text>
+												<br />
 											</LazyLoad>
 										</>
 									)}
-									<Text ta="center" color="main.3" mt={2}>
-										<em>{ach.imgAlt}</em>
-									</Text>
-									<br />
 								</List.Item>
 							</Fade>
 							<br />
