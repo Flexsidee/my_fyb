@@ -70,11 +70,12 @@ const About = () => {
 				{/* <br /> */}
 				<Fade bottom>
 					<div>
-						I also enjoy <strong>taking pictures</strong> and hope to model
-						someday, even though I am 5 feet 9 inches tall. Additionally, I have
-						a background in <strong>tailoring</strong>. I used to sew for others
-						until 2020 when I decided to focus on software development. Now, I
-						sew exclusively for myself.
+						I have a background in <strong>tailoring</strong>. I used to sew for
+						others until 2020 when I decided to focus on software development.
+						Now, I sew exclusively for myself, I made my Luncheon and
+						thanksgivng outfit. Additionally, I also enjoy{" "}
+						<strong>taking pictures</strong> and hope to model someday, even
+						though I am 5 feet 9 inches tall.
 					</div>
 				</Fade>
 			</Text>
