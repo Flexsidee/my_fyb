@@ -631,7 +631,7 @@ const Days = () => {
 					</Text>
 				</Text>
 			</Fade>
-			<Container mt="md">
+			<Container mt="md" px={0}>
 				{fyp.map((day) => (
 					<DayLayout
 						date={day.date}

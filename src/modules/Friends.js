@@ -56,7 +56,7 @@ const appreciations = [
 			{
 				id: 2,
 				category: "Dr Adeniyi Akanni",
-				categoryColor: 'white.8',
+				categoryColor: "white.8",
 				// imageUrl: "/lecturers/4.jpg",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269948/4_ak9ojb.jpg",
@@ -64,7 +64,7 @@ const appreciations = [
 			{
 				id: 3,
 				category: "Dr Peter Oduroye",
-				categoryColor: 'white.8',
+				categoryColor: "white.8",
 				// imageUrl: "/lecturers/3.jpg",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269945/3_n3zcnw.jpg",
@@ -253,7 +253,7 @@ const Friends = () => {
 					</Text>
 				</Text>
 			</Fade>
-			<Container>
+			<Container px={0}>
 				<Fade bottom>
 					<Text ta="justify">
 						Throughout my journey at Caleb University, I have been fortunate to
