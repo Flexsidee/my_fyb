@@ -136,6 +136,16 @@ const achievements = [
 		imgAlt: "With the CAVIER team at Caleb News Room",
 		description: `Invited to an interview at the newsroom to discuss the inception, development, challenges, journey, and presentation of CAVIER at the Nigeria Air Force Base.`,
 	},
+	{
+		id: 13,
+		title:
+			"Google Developer Student Club Leads Graduation Party Invitation (July 2024)",
+		// imageUrl: "/ach-images/news.webp",
+		imageUrl:
+			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722531335/google_cnxidi.webp",
+		imgAlt: "Fellow Ex GDSC Leads with Program Manager at Google Lagos Office",
+		description: `As the outgoing GDSC Lead, I had the opportunity to be invited to the 2023/2024 Google Developer Student Club Leads graduation party at the Google Lagos office.`,
+	},
 ];
 
 const Achievements = () => {
