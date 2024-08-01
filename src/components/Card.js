@@ -2,7 +2,7 @@ import { createStyles, Paper, Text, rem, Skeleton } from "@mantine/core";
 import { useEffect, useState } from "react";
 import LazyLoad from "react-lazyload";
 
-const Card = ({ imageUrl, category }) => {
+const Card = ({ imageUrl, category, categoryColor }) => {
 	const { classes } = useStyles();
 	const [imageLoaded, setImageLoaded] = useState(false);
 	const [imageError, setImageError] = useState(false);
@@ -26,7 +26,10 @@ const Card = ({ imageUrl, category }) => {
 					sx={{ backgroundImage: `url(${imageUrl})` }}
 					className={classes.card}>
 					<div>
-						<Text className={classes.category} size="md">
+						<Text
+							className={classes.category}
+							color={categoryColor ? categoryColor : "white"}
+							size="md">
 							{category}
 						</Text>
 					</div>
@@ -50,7 +53,7 @@ const useStyles = createStyles((theme) => ({
 	},
 
 	category: {
-		color: theme.white,
+		// color: theme.white,
 		opacity: 0.9,
 		fontWeight: 700,
 		textTransform: "uppercase",

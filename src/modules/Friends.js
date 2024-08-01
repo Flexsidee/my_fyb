@@ -15,7 +15,7 @@ const appreciations = [
 				// imageUrl: "thanksgiving/family.jpeg",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722523840/family_r0ehfm.webp",
-				category: "Thanksgiving",
+				category: "Rapheal, Me, Sis and Dad",
 			},
 			{
 				id: 2,
@@ -26,7 +26,7 @@ const appreciations = [
 			},
 			{
 				id: 3,
-				category: "The Ahmeds",
+				category: "Me and Ahmed Family",
 				// imageUrl: "/family/3.webp",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269784/3_hqnw5w.webp",
@@ -56,6 +56,7 @@ const appreciations = [
 			{
 				id: 2,
 				category: "Dr Adeniyi Akanni",
+				categoryColor: 'white.8',
 				// imageUrl: "/lecturers/4.jpg",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269948/4_ak9ojb.jpg",
@@ -63,6 +64,7 @@ const appreciations = [
 			{
 				id: 3,
 				category: "Dr Peter Oduroye",
+				categoryColor: 'white.8',
 				// imageUrl: "/lecturers/3.jpg",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269945/3_n3zcnw.jpg",
@@ -202,28 +204,28 @@ const appreciations = [
 		images: [
 			{
 				id: 1,
-				category: "",
+				category: "Me and Aminat",
 				// imageUrl: "/gf/1.webp",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269918/1_r9g014.webp",
 			},
 			{
 				id: 2,
-				category: "",
+				category: "Me and Aminat",
 				// imageUrl: "/gf/2.webp",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269918/2_wyfoes.webp",
 			},
 			{
 				id: 3,
-				category: "",
+				category: "Me and Aminat",
 				// imageUrl: "/gf/3.webp",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269919/3_skmbom.webp",
 			},
 			{
 				id: 4,
-				category: "",
+				category: "Me and Aminat",
 				// imageUrl: "/gf/4.webp",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269920/4_konc6n.webp",

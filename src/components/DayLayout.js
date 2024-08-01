@@ -32,7 +32,7 @@ const DayLayout = ({ date, description, images, name }) => {
 							{date}
 						</Text>
 					</Group>
-					<Text mb="md"  ta="justify">
+					<Text mb="md" ta="justify">
 						{description}
 					</Text>
 					{images.length > 0 && (

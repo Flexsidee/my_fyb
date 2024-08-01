@@ -15,7 +15,7 @@ const App = () => {
 		<Box>
 			<AppNavbar />
 			<main style={{ paddingTop: "60px" }}>
-				<Container pt={50} id="about">
+				<Container id="about">
 					<About />
 				</Container>
 				<Achievements />
