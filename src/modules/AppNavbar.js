@@ -114,7 +114,7 @@ const useStyle = createStyles((theme) => ({
 	},
 	links: {
 		fontWeight: "bold",
-		fontSize: "20px",
+		fontSize: "16px",
 		color: theme.colors.main[2],
 
 		"&:hover": {

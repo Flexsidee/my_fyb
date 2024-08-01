@@ -11,11 +11,11 @@ const appreciations = [
 		description: `A special thanks to my family for their unconditional love and support. Your belief in me has been my greatest strength.`,
 		images: [
 			{
-				id: 1,
-				category: "Dad, Sis and Nephew",
-				// imageUrl: "/family/1.jpg",
+				id: 4,
+				// imageUrl: "thanksgiving/family.jpeg",
 				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269786/1_pche1n.jpg",
+					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722523840/family_r0ehfm.webp",
+				category: "Thanksgiving",
 			},
 			{
 				id: 2,
@@ -30,6 +30,13 @@ const appreciations = [
 				// imageUrl: "/family/3.webp",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269784/3_hqnw5w.webp",
+			},
+			{
+				id: 1,
+				category: "Dad, Sis and Nephew",
+				// imageUrl: "/family/1.jpg",
+				imageUrl:
+					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269786/1_pche1n.jpg",
 			},
 		],
 	},
@@ -108,13 +115,6 @@ const appreciations = [
 				// imageUrl: "/friends/3.webp",
 				imageUrl:
 					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721342587/9563089D-D2C8-4EE0-907F-133022F627F8_1_105_c_yvasye.jpg",
-			},
-			{
-				id: 4,
-				category: "Osinachi Ameashi",
-				// imageUrl: "/friends/4.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269894/4_unzvwd.jpg",
 			},
 			{
 				id: 5,
