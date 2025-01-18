@@ -13,72 +13,52 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				// imageUrl: "fyp-images/Day6-Defense/1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270121/1_xdxrku.webp",
+				imageUrl: "fyp-images/Day6-Defense/1.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 2,
-				// imageUrl: "fyp-images/Day6-Defense/2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270123/2_gasqxn.webp",
+				imageUrl: "fyp-images/Day6-Defense/2.webp",
 				category: "Samuel, Me, Kenny and Temi",
 			},
 			{
 				id: 3,
-				// imageUrl: "fyp-images/Day6-Defense/3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270124/3_xhrerv.webp",
+				imageUrl: "fyp-images/Day6-Defense/3.webp",
 				category: "Inioluwa and I",
 			},
 			{
 				id: 4,
-				// imageUrl: "fyp-images/Day6-Defense/4.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270126/4_ox8zba.webp",
+				imageUrl: "fyp-images/Day6-Defense/4.webp",
 				category: "Me and Kenny",
 			},
 			{
 				id: 5,
-				// imageUrl: "fyp-images/Day6-Defense/5.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270129/5_dv30gs.webp",
+				imageUrl: "fyp-images/Day6-Defense/5.webp",
 				category: "Timmy, Kachi, Eddie and I",
 			},
 			{
 				id: 6,
-				// imageUrl: "fyp-images/Day6-Defense/6.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270127/6_bmr9ey.webp",
+				imageUrl: "fyp-images/Day6-Defense/6.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 7,
-				// imageUrl: "fyp-images/Day6-Defense/7.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270133/7_o9nwq5.jpg",
+				imageUrl: "fyp-images/Day6-Defense/7.jpg",
 				category: "Me and Adesuwa",
 			},
 			{
 				id: 8,
-				// imageUrl: "fyp-images/Day6-Defense/8.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270130/8_vvcnvb.webp",
+				imageUrl: "fyp-images/Day6-Defense/8.webp",
 				category: "Project Defense",
 			},
 			{
 				id: 9,
-				// imageUrl: "fyp-images/Day6-Defense/9.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270136/9_if5yag.jpg",
+				imageUrl: "fyp-images/Day6-Defense/9.jpg",
 				category: "Me and Sophie",
 			},
 			{
 				id: 10,
-				// imageUrl: "fyp-images/Day6-Defense/10.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270131/10_o6vchi.webp",
+				imageUrl: "fyp-images/Day6-Defense/10.webp",
 				category: "Project Defense",
 			},
 		],
@@ -91,58 +71,42 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				// imageUrl: "fyp-images/Day1-Dinner/1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270015/1_gqzvdd.webp",
+				imageUrl: "fyp-images/Day1-Dinner/1.webp",
 				category: "Dinner",
 			},
 			{
 				id: 2,
-				// imageUrl: "fyp-images/Day1-Dinner/2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270019/2_qngkud.webp",
+				imageUrl: "fyp-images/Day1-Dinner/2.webp",
 				category: "Me and Eddie",
 			},
 			{
 				id: 3,
-				// imageUrl: "fyp-images/Day1-Dinner/3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270022/3_xzsjsf.webp",
+				imageUrl: "fyp-images/Day1-Dinner/3.webp",
 				category: "Me and Precious",
 			},
 			{
 				id: 4,
-				// imageUrl: "fyp-images/Day1-Dinner/4.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270023/4_rucqdq.webp",
+				imageUrl: "fyp-images/Day1-Dinner/4.webp",
 				category: "Me, Deolu, Ehis, Chris, Camsy and Kenny",
 			},
 			{
 				id: 5,
-				// imageUrl: "fyp-images/Day1-Dinner/5.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270018/5_buvbmz.webp",
+				imageUrl: "fyp-images/Day1-Dinner/5.webp",
 				category: "Dinner",
 			},
 			{
 				id: 6,
-				// imageUrl: "fyp-images/Day1-Dinner/6.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270025/6_lvc7zn.jpg",
+				imageUrl: "fyp-images/Day1-Dinner/6.jpg",
 				category: "Timi, Me and Favour",
 			},
 			{
 				id: 7,
-				// imageUrl: "fyp-images/Day1-Dinner/7.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270020/7_ffji88.webp",
+				imageUrl: "fyp-images/Day1-Dinner/7.webp",
 				category: "Dinner",
 			},
 			{
 				id: 8,
-				// imageUrl: "fyp-images/Day1-Dinner/8.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270016/8_kdaljo.webp",
+				imageUrl: "fyp-images/Day1-Dinner/8.webp",
 				category: "Sophie and I",
 			},
 			{
@@ -161,37 +125,27 @@ const fyp = [
 		images: [
 			{
 				id: 2,
-				// imageUrl: "fyp-images/Day2-Jersey/2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270196/2_y3kzqp.webp",
+				imageUrl: "fyp-images/Day2-Jersey/2.webp",
 				category: "Jersey",
 			},
 			{
 				id: 5,
-				// imageUrl: "fyp-images/Day2-Jersey/5.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270199/5_r16eyb.webp",
+				imageUrl: "fyp-images/Day2-Jersey/5.webp",
 				category: "Me and Dalamu",
 			},
 			{
 				id: 1,
-				// imageUrl: "fyp-images/Day2-Jersey/1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270197/1_udyp1o.webp",
+				imageUrl: "fyp-images/Day2-Jersey/1.webp",
 				category: "Jersey",
 			},
 			{
 				id: 4,
-				// imageUrl: "fyp-images/Day2-Jersey/4.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270201/4_axxw85.webp",
+				imageUrl: "fyp-images/Day2-Jersey/4.webp",
 				category: "Me and Green",
 			},
 			{
 				id: 3,
-				// imageUrl: "fyp-images/Day2-Jersey/3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270195/3_jmam7w.webp",
+				imageUrl: "fyp-images/Day2-Jersey/3.webp",
 				category: "Jersey",
 			},
 		],
@@ -204,52 +158,38 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				// imageUrl: "fyp-images/Day3-Luncheon/1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270161/1_b7qplq.webp",
+				imageUrl: "fyp-images/Day3-Luncheon/1.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 8,
-				// imageUrl: "fyp-images/Day3-Luncheon/8.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270168/8_qrx8ac.webp",
+				imageUrl: "fyp-images/Day3-Luncheon/8.webp",
 				category: "Paul, Me, Fikayo, Kolade and Dalamu",
 				categoryColor: "Purple",
 			},
 			{
 				id: 2,
-				// imageUrl: "fyp-images/Day3-Luncheon/2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270160/2_mpflmx.webp",
+				imageUrl: "fyp-images/Day3-Luncheon/2.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 7,
-				// imageUrl: "fyp-images/Day3-Luncheon/7.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270172/7_u3ngl8.jpg",
+				imageUrl: "fyp-images/Day3-Luncheon/7.jpg",
 				category: "Me and Kolade",
 			},
 			{
 				id: 6,
-				// imageUrl: "fyp-images/Day3-Luncheon/6.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270165/4_ifsigh.webp",
+				imageUrl: "fyp-images/Day3-Luncheon/6.webp",
 				category: "Luncheon",
 			},
 			{
 				id: 9,
-				// imageUrl: "fyp-images/Day3-Luncheon/9.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270169/6_pxaoym.webp",
+				imageUrl: "fyp-images/Day3-Luncheon/9.webp",
 				category: "Me and Sophie",
 			},
 			{
 				id: 5,
-				// imageUrl: "fyp-images/Day3-Luncheon/5.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721270163/5_ebrkwx.webp",
+				imageUrl: "fyp-images/Day3-Luncheon/5.webp",
 				category: "Luncheon",
 			},
 		],
@@ -263,165 +203,121 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				// imageUrl: "signout/me1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524762/me1_avoj8p.webp",
+				imageUrl: "signout/me1.webp",
 				category: "Sign Out",
 			},
 			{
 				id: 2,
-				// imageUrl: "signout/osi.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524773/osi_ienmpf.jpg",
+				imageUrl: "signout/osi.jpeg",
 				category: "Osinachi Ameashi",
 				categoryColor: "blue.9",
 			},
 
 			{
 				id: 3,
-				// imageUrl: "signout/group1.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524791/group1_v8reyn.jpg",
+				imageUrl: "signout/group1.jpeg",
 				category: "Mena, Ebuka, Sherif, Pablo, etc",
 				categoryColor: "blue.9",
 			},
 			{
 				id: 4,
-				// imageUrl: "signout/kenny.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524766/kenny_eayrph.webp",
+				imageUrl: "signout/kenny.webp",
 				category: "Salami Kehinde",
 			},
 			{
 				id: 5,
-				// imageUrl: "signout/group8.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524770/group8_msqbur.webp",
+				imageUrl: "signout/group8.webp",
 				category: "Kenny, Bazz, Me and Kolade",
 				categoryColor: "blue.9",
 			},
 			{
 				id: 6,
-				// imageUrl: "signout/flyn.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524772/flyn_rbil8g.jpg",
+				imageUrl: "signout/flyn.jpeg",
 				category: "Abu David Flyn",
 				categoryColor: "blue.9",
 			},
 			{
 				id: 7,
-				// imageUrl: "signout/group2.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524785/group2_qp7ubb.jpg",
+				imageUrl: "signout/group2.jpeg",
 				category: "Caleb, Francis, Divine, Annie, Bolu, Collins, etc",
 				categoryColor: "red.5",
 			},
 			{
 				id: 8,
-				// imageUrl: "signout/derin.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524790/derin_lrxncc.jpg",
+				imageUrl: "signout/derin.jpeg",
 				category: "Eyinade Aderinsola",
 				categoryColor: "red.8",
 			},
 			{
 				id: 10,
-				// imageUrl: "signout/jeff.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524764/jeff_jvrnsa.webp",
+				imageUrl: "signout/jeff.webp",
 				category: "Jefferson",
 			},
 			{
 				id: 11,
-				// imageUrl: "signout/group3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524765/group3_trymaf.webp",
+				imageUrl: "signout/group3.webp",
 				category: "Kenny, and Fiyin",
 			},
 			{
 				id: 12,
-				// imageUrl: "signout/sophie.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524769/sophie_vvz0b0.webp",
+				imageUrl: "signout/sophie.webp",
 				category: "George Sophie",
 			},
 			{
 				id: 13,
-				// imageUrl: "signout/group4.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524779/group4_cmh5qy.jpg",
+				imageUrl: "signout/group4.jpg",
 				category: "Chisom, Precious, Daniel, Me and Tobi",
 			},
 			{
 				id: 14,
-				// imageUrl: "signout/caleb.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524779/caleb_aca2ed.jpg",
+				imageUrl: "signout/caleb.jpeg",
 				category: "Udom Caleb",
 				categoryColor: "red.9",
 			},
 			{
 				id: 15,
-				// imageUrl: "signout/group5.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524765/group5_kyuet7.webp",
+				imageUrl: "signout/group5.webp",
 				category: "Mena, Divine, Me and Jeff",
 			},
 			{
 				id: 16,
-				// imageUrl: "signout/tumi.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524767/tumi_ziqzrv.webp",
+				imageUrl: "signout/tumi.webp",
 				category: "Alaran Tunmininu",
 			},
 			{
 				id: 17,
-				// imageUrl: "signout/group6.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524784/group6_baooyz.jpg",
+				imageUrl: "signout/group6.jpeg",
 				category: "Divine, Bolu, Flyn, etc",
 			},
 			{
 				id: 18,
-				// imageUrl: "signout/debola.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524770/debola_ym6k6f.jpg",
+				imageUrl: "signout/debola.jpeg",
 				category: "Omooba Adebola",
 			},
 			{
 				id: 19,
-				// imageUrl: "signout/group7.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524783/group7_nmqz0s.jpg",
+				imageUrl: "signout/group7.jpeg",
 				category: "Sign Out",
 			},
 			{
 				id: 20,
-				// imageUrl: "signout/archi.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524765/archi_ojefdx.webp",
+				imageUrl: "signout/archi.webp",
 				category: "Archi",
 				categoryColor: "blue.9",
 			},
 			{
 				id: 22,
-				// imageUrl: "signout/briannah.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524767/briannah_egazzd.webp",
+				imageUrl: "signout/briannah.webp",
 				category: "Nwanko Briannah",
 			},
 			{
 				id: 21,
-				// imageUrl: "signout/daniel.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524773/daniel_i6a5zt.jpg",
+				imageUrl: "signout/daniel.jpeg",
 				category: "Edomani Daniel",
 			},
 			{
 				id: 23,
-				// imageUrl: "signout/me2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722524763/me2_vnvz6s.webp",
+				imageUrl: "signout/me2.webp",
 				category: "Sign Out",
 			},
 		],
@@ -435,179 +331,129 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				// imageUrl: "thanksgiving/me1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520836/me1_xaqgr1.webp",
+				imageUrl: "thanksgiving/me1.webp",
 				category: "Thanksgiving",
 			},
 			{
 				id: 6,
-				// imageUrl: "thanksgiving/azeez.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520837/azeez_vmahl9.webp",
+				imageUrl: "thanksgiving/azeez.webp",
 				category: "Azeez Daniel",
 			},
 			{
 				id: 4,
-				// imageUrl: "thanksgiving/group1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520842/group1_ix1zdi.webp",
+				imageUrl: "thanksgiving/group1.webp",
 				category: "Faithful, Caleb, Shiloh, Ifeanyi, Mena, Ebuka",
 			},
 			{
 				id: 2,
-				// imageUrl: "thanksgiving/me2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520836/me2_ajldho.webp",
+				imageUrl: "thanksgiving/me2.webp",
 				category: "Thanksgiving",
 			},
 			{
 				id: 8,
-				// imageUrl: "thanksgiving/chinwe.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520840/chinwe_rhfq1p.webp",
+				imageUrl: "thanksgiving/chinwe.webp",
 				category: "Amadu Chinwedu",
 			},
 			{
 				id: 5,
-				// imageUrl: "thanksgiving/group2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520847/group2_mzk850.webp",
+				imageUrl: "thanksgiving/group2.webp",
 				category: "Temi, Fiyin, Roy, Bazz, Kenny, Shiloh and Mena",
 			},
 			{
 				id: 3,
-				// imageUrl: "thanksgiving/me3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520837/me3_zahe0w.webp",
+				imageUrl: "thanksgiving/me3.webp",
 				category: "Thanksgiving",
 			},
 			{
 				id: 21,
-				// imageUrl: "thanksgiving/tunmise.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520841/tunmise_ifyq7o.webp",
+				imageUrl: "thanksgiving/tunmise.webp",
 				category: "Ogunniyi Tunmise",
 				categoryColor: "red.9",
 			},
 			{
 				id: 19,
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520843/sophie_dlnnwx.webp",
-				// imageUrl: "thanksgiving/sophie.webp",
+				imageUrl: "thanksgiving/sophie.webp",
 				category: "Jibola and Sophie",
 			},
 			{
 				id: 9,
-				// imageUrl: "thanksgiving/feke.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520848/feke_nzfndb.jpg",
+				imageUrl: "thanksgiving/feke.jpeg",
 				category: "Alao-Peters Feke",
 			},
 			{
 				id: 10,
-				// imageUrl: "thanksgiving/gloria.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520843/gloria_snhnvl.webp",
+				imageUrl: "thanksgiving/gloria.webp",
 				category: "Idowu Gloria",
 			},
 			{
 				id: 11,
-				// imageUrl: "thanksgiving/ifeanyi.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520843/ifeanyi_usfqke.webp",
+				imageUrl: "thanksgiving/ifeanyi.webp",
 				category: "Aladi Ifeanyi",
 			},
 			{
 				id: 12,
-				// imageUrl: "thanksgiving/jed.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520845/jed_jld9rn.webp",
+				imageUrl: "thanksgiving/jed.webp",
 				category: "Jed",
 			},
 			{
 				id: 13,
-				// imageUrl: "thanksgiving/jibola.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520839/jibola_lzwirh.webp",
+				imageUrl: "thanksgiving/jibola.webp",
 				category: "Ajibola Salami",
 			},
 			{
 				id: 14,
-				// imageUrl: "thanksgiving/kachi.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520846/kachi_yh2pqa.webp",
+				imageUrl: "thanksgiving/kachi.webp",
 				category: "Joshua, Kachi and Dolamu",
 			},
 			{
 				id: 15,
-				// imageUrl: "thanksgiving/kenny.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520850/kenny_kkwfpf.jpg",
+				imageUrl: "thanksgiving/kenny.jpeg",
 				category: "Salami Kehinde",
 			},
 			{
 				id: 16,
-				// imageUrl: "thanksgiving/lekan.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520839/lekan_gaf43g.webp",
+				imageUrl: "thanksgiving/lekan.webp",
 				category: "Lekan",
 			},
 			{
 				id: 17,
-				// imageUrl: "thanksgiving/precious.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520849/precious_awibo3.webp",
+				imageUrl: "thanksgiving/precious.webp",
 				category: "Precious Ihunaya",
 			},
 			{
 				id: 18,
-				// imageUrl: "thanksgiving/roy.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520838/roy_p0wotd.webp",
+				imageUrl: "thanksgiving/roy.webp",
 				category: "Udom Roy",
 			},
 			{
 				id: 20,
-				// imageUrl: "thanksgiving/temi.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520836/temi_niov1g.webp",
+				imageUrl: "thanksgiving/temi.webp",
 				category: "Abiodun Temidayo",
 			},
 
 			{
 				id: 22,
-				// imageUrl: "thanksgiving/veronica.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520845/veronica_f2bsqx.webp",
+				imageUrl: "thanksgiving/veronica.webp",
 				category: "Ejeh Veronica",
 			},
 			{
 				id: 23,
-				// imageUrl: "thanksgiving/victoria.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520842/victoria_maudgp.webp",
+				imageUrl: "thanksgiving/victoria.webp",
 				category: "Ajibola Victoria",
 			},
 			{
 				id: 24,
-				// imageUrl: "thanksgiving/victory.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520844/victory_digft6.webp",
+				imageUrl: "thanksgiving/victory.webp",
 				category: "Okenwa Victory",
 			},
 			{
 				id: 7,
-				// imageUrl: "thanksgiving/caleb.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520840/caleb_o738ky.webp",
+				imageUrl: "thanksgiving/caleb.webp",
 				category: "Emelu Caleb",
 			},
 			{
 				id: 25,
-				// imageUrl: "thanksgiving/me4.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722520836/me4_jn7kz5.webp",
+				imageUrl: "thanksgiving/me4.webp",
 				category: "Thanksgiving",
 			},
 		],

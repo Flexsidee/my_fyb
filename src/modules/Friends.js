@@ -12,31 +12,23 @@ const appreciations = [
 		images: [
 			{
 				id: 4,
-				// imageUrl: "thanksgiving/family.jpeg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1722523840/family_r0ehfm.webp",
+				imageUrl: "/thanksgiving/family.jpeg",
 				category: "Rapheal, Me, Sis and Dad",
 			},
 			{
 				id: 2,
 				category: "Brother, Sister, Niece and Mum",
-				// imageUrl: "/family/2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269784/2_gwevgn.webp",
+				imageUrl: "/family/2.webp",
 			},
 			{
 				id: 3,
 				category: "Me and Ahmed Family",
-				// imageUrl: "/family/3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269784/3_hqnw5w.webp",
+				imageUrl: "/family/3.webp",
 			},
 			{
 				id: 1,
 				category: "Dad, Sis and Nephew",
-				// imageUrl: "/family/1.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269786/1_pche1n.jpg",
+				imageUrl: "/family/1.jpg",
 			},
 		],
 	},
@@ -49,25 +41,19 @@ const appreciations = [
 			{
 				id: 1,
 				category: "Dr Emmanuel Ajulo",
-				// imageUrl: "/lecturers/1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269946/1_tqaxia.webp",
+				imageUrl: "/lecturers/1.webp",
 			},
 			{
 				id: 2,
 				category: "Dr Adeniyi Akanni",
 				categoryColor: "white.8",
-				// imageUrl: "/lecturers/4.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269948/4_ak9ojb.jpg",
+				imageUrl: "/lecturers/4.jpg",
 			},
 			{
 				id: 3,
 				category: "Dr Peter Oduroye",
 				categoryColor: "white.8",
-				// imageUrl: "/lecturers/3.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269945/3_n3zcnw.jpg",
+				imageUrl: "/lecturers/3.jpg",
 			},
 		],
 	},
@@ -79,16 +65,12 @@ const appreciations = [
 			{
 				id: 1,
 				category: "Fieldbase Team at NOG",
-				// imageUrl: "/fbase/1.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269857/1_hszdxx.jpg",
+				imageUrl: "/fbase/1.jpg",
 			},
 			{
 				id: 2,
 				category: "Fieldbase Lagos Team Hangout",
-				// imageUrl: "/fbase/2.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269857/2_t0vmig.jpg",
+				imageUrl: "/fbase/2.jpg",
 			},
 		],
 	},
@@ -100,100 +82,72 @@ const appreciations = [
 			{
 				id: 1,
 				category: "Chisom, Malina & Ayo",
-				// imageUrl: "/friends/1.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269895/1_a24it1.jpg",
+				imageUrl: "/friends/1.jpg",
 			},
 			{
 				id: 2,
 				category: "Tunmise Ogunniyi",
-				// imageUrl: "/friends/2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269882/2_p4qmn0.webp",
+				imageUrl: "/friends/2.webp",
 			},
 			{
 				id: 3,
 				category: "Ifeanyi, Elizabeth & Isreal",
-				// imageUrl: "/friends/3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721342587/9563089D-D2C8-4EE0-907F-133022F627F8_1_105_c_yvasye.jpg",
+				imageUrl: "/friends/3.webp",
 			},
 			{
 				id: 5,
 				category: "John, Joshua, Dolamu & Isreal",
-				// imageUrl: "/friends/5.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269882/5_btgu7m.webp",
+				imageUrl: "/friends/5.webp",
 			},
 			{
 				id: 6,
 				category: "Temi Abiodun",
-				// imageUrl: "/friends/6.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269883/6_wkhecm.webp",
+				imageUrl: "/friends/6.webp",
 			},
 			{
 				id: 7,
 				category: "Kenny, Bundo",
-				// imageUrl: "/friends/7.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269897/7_izi7at.png",
+				imageUrl: "/friends/7.jpg",
 			},
 			{
 				id: 8,
 				category: "Enoch",
-				// imageUrl: "/friends/8.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269888/8_waxzet.webp",
+				imageUrl: "/friends/8.webp",
 			},
 			{
 				id: 9,
 				category: "Ifeanyi, Fiyin, Shile & Opara",
-				// imageUrl: "/friends/9.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269884/9_c9qjch.webp",
+				imageUrl: "/friends/9.webp",
 			},
 			{
 				id: 10,
 				category: "Dolapo Oyesola",
-				// imageUrl: "/friends/10.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269885/10_ysgtaq.webp",
+				imageUrl: "/friends/10.webp",
 			},
 			{
 				id: 11,
 				category: "Shiloh & Fortune",
-				// imageUrl: "/friends/11.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269893/11_sjmdl8.jpg",
+				imageUrl: "/friends/11.jpg",
 			},
 			{
 				id: 12,
 				category: "Caleb Emelu",
-				// imageUrl: "/friends/12.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269886/12_ljotvv.webp",
+				imageUrl: "/friends/12.webp",
 			},
 			{
 				id: 13,
 				category: "CAVEIR Team",
-				// imageUrl: "/friends/13.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269887/13_ig0rfs.webp",
+				imageUrl: "/friends/13.webp",
 			},
 			{
 				id: 14,
 				category: "Samuel Ogunlusi",
-				// imageUrl: "/friends/14.jpg",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269892/14_gorgno.jpg",
+				imageUrl: "/friends/14.jpg",
 			},
 			{
 				id: 15,
 				category: "Timmy and John",
-				// imageUrl: "/friends/15.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269889/15_jsnu3h.webp",
+				imageUrl: "/friends/15.webp",
 			},
 		],
 	},
@@ -205,30 +159,22 @@ const appreciations = [
 			{
 				id: 1,
 				category: "Me and Aminat",
-				// imageUrl: "/gf/1.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269918/1_r9g014.webp",
+				imageUrl: "/gf/1.webp",
 			},
 			{
 				id: 2,
 				category: "Me and Aminat",
-				// imageUrl: "/gf/2.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269918/2_wyfoes.webp",
+				imageUrl: "/gf/2.webp",
 			},
 			{
 				id: 3,
 				category: "Me and Aminat",
-				// imageUrl: "/gf/3.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269919/3_skmbom.webp",
+				imageUrl: "/gf/3.webp",
 			},
 			{
 				id: 4,
 				category: "Me and Aminat",
-				// imageUrl: "/gf/4.webp",
-				imageUrl:
-					"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269920/4_konc6n.webp",
+				imageUrl: "/gf/4.webp",
 			},
 		],
 	},
