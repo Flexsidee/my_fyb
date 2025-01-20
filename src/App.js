@@ -1,4 +1,4 @@
-import { Box, Container } from "@mantine/core";
+import { Alert, Box, Container, Modal } from "@mantine/core";
 
 import {
 	About,
@@ -9,8 +9,19 @@ import {
 	Friends,
 	FuturePlan,
 } from "./modules";
+import { useEffect, useState } from "react";
 
 const App = () => {
+	const [opened, setOpened] = useState(false);
+
+	useEffect(() => {
+		const timer = setTimeout(() => {
+			setOpened(true);
+		}, 5000); // 5 seconds delay
+
+		return () => clearTimeout(timer); // Cleanup the timer on component unmount
+	}, []);
+
 	return (
 		<Box>
 			<AppNavbar />
@@ -28,6 +39,16 @@ const App = () => {
 				</Container>
 			</main>
 			<Footer />
+
+			<Modal
+				centered
+				opened={opened}
+				onClose={() => setOpened(false)}
+				title="Please bear with me">
+				<Alert
+					title="The images may take a while to load. Thank you for your patience!"
+					color="blue"></Alert>
+			</Modal>
 		</Box>
 	);
 };

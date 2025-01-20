@@ -458,6 +458,142 @@ const fyp = [
 			},
 		],
 	},
+	{
+		id: 6,
+		date: "21 Jan 2025",
+		name: "Convocation",
+		description: `Graduating with a CGPA of 4.76 as the best student in Computer Science was a proud moment. The convocation was a celebration of the years of hard work and growth, marking the end of one chapter and the start of an exciting new journey ahead.
+							`,
+		images: [
+			{
+				id: 1,
+				imageUrl: "thanksgiving/me1.webp",
+				category: "Thanksgiving",
+			},
+			{
+				id: 6,
+				imageUrl: "thanksgiving/azeez.webp",
+				category: "Azeez Daniel",
+			},
+			{
+				id: 4,
+				imageUrl: "thanksgiving/group1.webp",
+				category: "Faithful, Caleb, Shiloh, Ifeanyi, Mena, Ebuka",
+			},
+			{
+				id: 2,
+				imageUrl: "thanksgiving/me2.webp",
+				category: "Thanksgiving",
+			},
+			{
+				id: 8,
+				imageUrl: "thanksgiving/chinwe.webp",
+				category: "Amadu Chinwedu",
+			},
+			{
+				id: 5,
+				imageUrl: "thanksgiving/group2.webp",
+				category: "Temi, Fiyin, Roy, Bazz, Kenny, Shiloh and Mena",
+			},
+			{
+				id: 3,
+				imageUrl: "thanksgiving/me3.webp",
+				category: "Thanksgiving",
+			},
+			{
+				id: 21,
+				imageUrl: "thanksgiving/tunmise.webp",
+				category: "Ogunniyi Tunmise",
+				categoryColor: "red.9",
+			},
+			{
+				id: 19,
+				imageUrl: "thanksgiving/sophie.webp",
+				category: "Jibola and Sophie",
+			},
+			{
+				id: 9,
+				imageUrl: "thanksgiving/feke.jpeg",
+				category: "Alao-Peters Feke",
+			},
+			{
+				id: 10,
+				imageUrl: "thanksgiving/gloria.webp",
+				category: "Idowu Gloria",
+			},
+			{
+				id: 11,
+				imageUrl: "thanksgiving/ifeanyi.webp",
+				category: "Aladi Ifeanyi",
+			},
+			{
+				id: 12,
+				imageUrl: "thanksgiving/jed.webp",
+				category: "Jed",
+			},
+			{
+				id: 13,
+				imageUrl: "thanksgiving/jibola.webp",
+				category: "Ajibola Salami",
+			},
+			{
+				id: 14,
+				imageUrl: "thanksgiving/kachi.webp",
+				category: "Joshua, Kachi and Dolamu",
+			},
+			{
+				id: 15,
+				imageUrl: "thanksgiving/kenny.jpeg",
+				category: "Salami Kehinde",
+			},
+			{
+				id: 16,
+				imageUrl: "thanksgiving/lekan.webp",
+				category: "Lekan",
+			},
+			{
+				id: 17,
+				imageUrl: "thanksgiving/precious.webp",
+				category: "Precious Ihunaya",
+			},
+			{
+				id: 18,
+				imageUrl: "thanksgiving/roy.webp",
+				category: "Udom Roy",
+			},
+			{
+				id: 20,
+				imageUrl: "thanksgiving/temi.webp",
+				category: "Abiodun Temidayo",
+			},
+
+			{
+				id: 22,
+				imageUrl: "thanksgiving/veronica.webp",
+				category: "Ejeh Veronica",
+			},
+			{
+				id: 23,
+				imageUrl: "thanksgiving/victoria.webp",
+				category: "Ajibola Victoria",
+			},
+			{
+				id: 24,
+				imageUrl: "thanksgiving/victory.webp",
+				category: "Okenwa Victory",
+			},
+			{
+				id: 7,
+				imageUrl: "thanksgiving/caleb.webp",
+				category: "Emelu Caleb",
+			},
+			{
+				id: 25,
+				imageUrl: "thanksgiving/me4.webp",
+				category: "Thanksgiving",
+			},
+		],
+	},
 ];
 
 const Days = () => {
