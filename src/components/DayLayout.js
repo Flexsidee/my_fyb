@@ -35,7 +35,7 @@ const DayLayout = ({ date, description, images, name }) => {
 					<Text mb="md" ta="justify">
 						{description}
 					</Text>
-					{images.length > 0 && (
+					{images?.length > 0 && (
 						<Carousel
 							align="start"
 							breakpoints={[{ maxWidth: "sm", slideSize: "100%", slideGap: 2 }]}

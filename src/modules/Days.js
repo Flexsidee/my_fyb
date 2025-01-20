@@ -203,121 +203,68 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				imageUrl: "signout/me1.webp",
+				imageUrl: "fyp-images/Day4-signout/me1.webp",
 				category: "Sign Out",
 			},
 			{
 				id: 2,
-				imageUrl: "signout/osi.jpeg",
+				imageUrl: "fyp-images/Day4-signout/osi.webp",
 				category: "Osinachi Ameashi",
 				categoryColor: "blue.9",
 			},
 
 			{
 				id: 3,
-				imageUrl: "signout/group1.jpeg",
-				category: "Mena, Ebuka, Sherif, Pablo, etc",
+				imageUrl: "fyp-images/Day4-signout/group1.webp",
+				category: "Chisom, Ebuka, Precious, Tobi, etc",
 				categoryColor: "blue.9",
 			},
 			{
 				id: 4,
-				imageUrl: "signout/kenny.webp",
-				category: "Salami Kehinde",
-			},
-			{
-				id: 5,
-				imageUrl: "signout/group8.webp",
-				category: "Kenny, Bazz, Me and Kolade",
-				categoryColor: "blue.9",
+				imageUrl: "fyp-images/Day4-signout/kenny.webp",
+				category: "Kenny, Bazz, Kolade",
 			},
 			{
 				id: 6,
-				imageUrl: "signout/flyn.jpeg",
+				imageUrl: "fyp-images/Day4-signout/flyn.webp",
 				category: "Abu David Flyn",
 				categoryColor: "blue.9",
 			},
 			{
 				id: 7,
-				imageUrl: "signout/group2.jpeg",
-				category: "Caleb, Francis, Divine, Annie, Bolu, Collins, etc",
+				imageUrl: "fyp-images/Day4-signout/group2.webp",
+				category: "",
 				categoryColor: "red.5",
 			},
 			{
 				id: 8,
-				imageUrl: "signout/derin.jpeg",
+				imageUrl: "fyp-images/Day4-signout/derin.webp",
 				category: "Eyinade Aderinsola",
 				categoryColor: "red.8",
 			},
 			{
-				id: 10,
-				imageUrl: "signout/jeff.webp",
-				category: "Jefferson",
-			},
-			{
 				id: 11,
-				imageUrl: "signout/group3.webp",
-				category: "Kenny, and Fiyin",
+				imageUrl: "fyp-images/Day4-signout/group3.webp",
+				category: "",
 			},
 			{
 				id: 12,
-				imageUrl: "signout/sophie.webp",
+				imageUrl: "fyp-images/Day4-signout/sophie.webp",
 				category: "George Sophie",
 			},
 			{
-				id: 13,
-				imageUrl: "signout/group4.jpg",
-				category: "Chisom, Precious, Daniel, Me and Tobi",
-			},
-			{
-				id: 14,
-				imageUrl: "signout/caleb.jpeg",
-				category: "Udom Caleb",
-				categoryColor: "red.9",
-			},
-			{
-				id: 15,
-				imageUrl: "signout/group5.webp",
-				category: "Mena, Divine, Me and Jeff",
-			},
-			{
-				id: 16,
-				imageUrl: "signout/tumi.webp",
-				category: "Alaran Tunmininu",
-			},
-			{
-				id: 17,
-				imageUrl: "signout/group6.jpeg",
-				category: "Divine, Bolu, Flyn, etc",
-			},
-			{
 				id: 18,
-				imageUrl: "signout/debola.jpeg",
+				imageUrl: "fyp-images/Day4-signout/debola.webp",
 				category: "Omooba Adebola",
 			},
 			{
-				id: 19,
-				imageUrl: "signout/group7.jpeg",
-				category: "Sign Out",
-			},
-			{
-				id: 20,
-				imageUrl: "signout/archi.webp",
-				category: "Archi",
-				categoryColor: "blue.9",
-			},
-			{
-				id: 22,
-				imageUrl: "signout/briannah.webp",
-				category: "Nwanko Briannah",
-			},
-			{
 				id: 21,
-				imageUrl: "signout/daniel.jpeg",
-				category: "Edomani Daniel",
+				imageUrl: "fyp-images/Day4-signout/feke.webp",
+				category: "Feke",
 			},
 			{
 				id: 23,
-				imageUrl: "signout/me2.webp",
+				imageUrl: "fyp-images/Day4-signout/me2.webp",
 				category: "Sign Out",
 			},
 		],
@@ -331,268 +278,192 @@ const fyp = [
 		images: [
 			{
 				id: 1,
-				imageUrl: "thanksgiving/me1.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/me1.webp",
 				category: "Thanksgiving",
 			},
 			{
-				id: 6,
-				imageUrl: "thanksgiving/azeez.webp",
-				category: "Azeez Daniel",
-			},
-			{
-				id: 4,
-				imageUrl: "thanksgiving/group1.webp",
-				category: "Faithful, Caleb, Shiloh, Ifeanyi, Mena, Ebuka",
-			},
-			{
 				id: 2,
-				imageUrl: "thanksgiving/me2.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/me2.webp",
 				category: "Thanksgiving",
 			},
 			{
 				id: 8,
-				imageUrl: "thanksgiving/chinwe.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/chinwe.webp",
 				category: "Amadu Chinwedu",
 			},
 			{
-				id: 5,
-				imageUrl: "thanksgiving/group2.webp",
-				category: "Temi, Fiyin, Roy, Bazz, Kenny, Shiloh and Mena",
-			},
-			{
-				id: 3,
-				imageUrl: "thanksgiving/me3.webp",
-				category: "Thanksgiving",
-			},
-			{
 				id: 21,
-				imageUrl: "thanksgiving/tunmise.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/tunmise.webp",
 				category: "Ogunniyi Tunmise",
 				categoryColor: "red.9",
 			},
 			{
-				id: 19,
-				imageUrl: "thanksgiving/sophie.webp",
-				category: "Jibola and Sophie",
-			},
-			{
-				id: 9,
-				imageUrl: "thanksgiving/feke.jpeg",
-				category: "Alao-Peters Feke",
-			},
-			{
-				id: 10,
-				imageUrl: "thanksgiving/gloria.webp",
-				category: "Idowu Gloria",
-			},
-			{
-				id: 11,
-				imageUrl: "thanksgiving/ifeanyi.webp",
-				category: "Aladi Ifeanyi",
-			},
-			{
 				id: 12,
-				imageUrl: "thanksgiving/jed.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/jed.webp",
 				category: "Jed",
 			},
 			{
-				id: 13,
-				imageUrl: "thanksgiving/jibola.webp",
-				category: "Ajibola Salami",
-			},
-			{
 				id: 14,
-				imageUrl: "thanksgiving/kachi.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/kachi.webp",
 				category: "Joshua, Kachi and Dolamu",
 			},
 			{
-				id: 15,
-				imageUrl: "thanksgiving/kenny.jpeg",
-				category: "Salami Kehinde",
-			},
-			{
 				id: 16,
-				imageUrl: "thanksgiving/lekan.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/lekan.webp",
 				category: "Lekan",
 			},
 			{
 				id: 17,
-				imageUrl: "thanksgiving/precious.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/precious.webp",
 				category: "Precious Ihunaya",
 			},
 			{
-				id: 18,
-				imageUrl: "thanksgiving/roy.webp",
-				category: "Udom Roy",
-			},
-			{
 				id: 20,
-				imageUrl: "thanksgiving/temi.webp",
-				category: "Abiodun Temidayo",
-			},
-
-			{
-				id: 22,
-				imageUrl: "thanksgiving/veronica.webp",
-				category: "Ejeh Veronica",
-			},
-			{
-				id: 23,
-				imageUrl: "thanksgiving/victoria.webp",
-				category: "Ajibola Victoria",
+				imageUrl: "fyp-images/Day5-Thanksgiving/group.webp",
+				category: "",
 			},
 			{
 				id: 24,
-				imageUrl: "thanksgiving/victory.webp",
+				imageUrl: "fyp-images/Day5-Thanksgiving/victory.webp",
 				category: "Okenwa Victory",
-			},
-			{
-				id: 7,
-				imageUrl: "thanksgiving/caleb.webp",
-				category: "Emelu Caleb",
-			},
-			{
-				id: 25,
-				imageUrl: "thanksgiving/me4.webp",
-				category: "Thanksgiving",
 			},
 		],
 	},
 	{
-		id: 6,
+		id: 7,
 		date: "21 Jan 2025",
 		name: "Convocation",
 		description: `Graduating with a CGPA of 4.76 as the best student in Computer Science was a proud moment. The convocation was a celebration of the years of hard work and growth, marking the end of one chapter and the start of an exciting new journey ahead.
 							`,
-		images: [
-			{
-				id: 1,
-				imageUrl: "thanksgiving/me1.webp",
-				category: "Thanksgiving",
-			},
-			{
-				id: 6,
-				imageUrl: "thanksgiving/azeez.webp",
-				category: "Azeez Daniel",
-			},
-			{
-				id: 4,
-				imageUrl: "thanksgiving/group1.webp",
-				category: "Faithful, Caleb, Shiloh, Ifeanyi, Mena, Ebuka",
-			},
-			{
-				id: 2,
-				imageUrl: "thanksgiving/me2.webp",
-				category: "Thanksgiving",
-			},
-			{
-				id: 8,
-				imageUrl: "thanksgiving/chinwe.webp",
-				category: "Amadu Chinwedu",
-			},
-			{
-				id: 5,
-				imageUrl: "thanksgiving/group2.webp",
-				category: "Temi, Fiyin, Roy, Bazz, Kenny, Shiloh and Mena",
-			},
-			{
-				id: 3,
-				imageUrl: "thanksgiving/me3.webp",
-				category: "Thanksgiving",
-			},
-			{
-				id: 21,
-				imageUrl: "thanksgiving/tunmise.webp",
-				category: "Ogunniyi Tunmise",
-				categoryColor: "red.9",
-			},
-			{
-				id: 19,
-				imageUrl: "thanksgiving/sophie.webp",
-				category: "Jibola and Sophie",
-			},
-			{
-				id: 9,
-				imageUrl: "thanksgiving/feke.jpeg",
-				category: "Alao-Peters Feke",
-			},
-			{
-				id: 10,
-				imageUrl: "thanksgiving/gloria.webp",
-				category: "Idowu Gloria",
-			},
-			{
-				id: 11,
-				imageUrl: "thanksgiving/ifeanyi.webp",
-				category: "Aladi Ifeanyi",
-			},
-			{
-				id: 12,
-				imageUrl: "thanksgiving/jed.webp",
-				category: "Jed",
-			},
-			{
-				id: 13,
-				imageUrl: "thanksgiving/jibola.webp",
-				category: "Ajibola Salami",
-			},
-			{
-				id: 14,
-				imageUrl: "thanksgiving/kachi.webp",
-				category: "Joshua, Kachi and Dolamu",
-			},
-			{
-				id: 15,
-				imageUrl: "thanksgiving/kenny.jpeg",
-				category: "Salami Kehinde",
-			},
-			{
-				id: 16,
-				imageUrl: "thanksgiving/lekan.webp",
-				category: "Lekan",
-			},
-			{
-				id: 17,
-				imageUrl: "thanksgiving/precious.webp",
-				category: "Precious Ihunaya",
-			},
-			{
-				id: 18,
-				imageUrl: "thanksgiving/roy.webp",
-				category: "Udom Roy",
-			},
-			{
-				id: 20,
-				imageUrl: "thanksgiving/temi.webp",
-				category: "Abiodun Temidayo",
-			},
+		// images: [
+		// 	{
+		// 		id: 1,
+		// 		imageUrl: "fyp-images/Day4-signout/me1.webp",
+		// 		category: "Thanksgiving",
+		// 	},
+		// 	{
+		// 		id: 6,
+		// 		imageUrl: "fyp-images/Day4-signout/azeez.webp",
+		// 		category: "Azeez Daniel",
+		// 	},
+		// 	{
+		// 		id: 4,
+		// 		imageUrl: "fyp-images/Day4-signout/group1.webp",
+		// 		category: "Faithful, Caleb, Shiloh, Ifeanyi, Mena, Ebuka",
+		// 	},
+		// 	{
+		// 		id: 2,
+		// 		imageUrl: "fyp-images/Day4-signout/me2.webp",
+		// 		category: "Thanksgiving",
+		// 	},
+		// 	{
+		// 		id: 8,
+		// 		imageUrl: "fyp-images/Day4-signout/chinwe.webp",
+		// 		category: "Amadu Chinwedu",
+		// 	},
+		// 	{
+		// 		id: 5,
+		// 		imageUrl: "fyp-images/Day4-signout/group2.webp",
+		// 		category: "Temi, Fiyin, Roy, Bazz, Kenny, Shiloh and Mena",
+		// 	},
+		// 	{
+		// 		id: 3,
+		// 		imageUrl: "fyp-images/Day4-signout/me3.webp",
+		// 		category: "Thanksgiving",
+		// 	},
+		// 	{
+		// 		id: 21,
+		// 		imageUrl: "fyp-images/Day4-signout/tunmise.webp",
+		// 		category: "Ogunniyi Tunmise",
+		// 		categoryColor: "red.9",
+		// 	},
+		// 	{
+		// 		id: 19,
+		// 		imageUrl: "fyp-images/Day4-signout/sophie.webp",
+		// 		category: "Jibola and Sophie",
+		// 	},
+		// 	{
+		// 		id: 9,
+		// 		imageUrl: "fyp-images/Day4-signout/feke.jpeg",
+		// 		category: "Alao-Peters Feke",
+		// 	},
+		// 	{
+		// 		id: 10,
+		// 		imageUrl: "fyp-images/Day4-signout/gloria.webp",
+		// 		category: "Idowu Gloria",
+		// 	},
+		// 	{
+		// 		id: 11,
+		// 		imageUrl: "fyp-images/Day4-signout/ifeanyi.webp",
+		// 		category: "Aladi Ifeanyi",
+		// 	},
+		// 	{
+		// 		id: 12,
+		// 		imageUrl: "thanksgiving/jed.webp",
+		// 		category: "Jed",
+		// 	},
+		// 	{
+		// 		id: 13,
+		// 		imageUrl: "thanksgiving/jibola.webp",
+		// 		category: "Ajibola Salami",
+		// 	},
+		// 	{
+		// 		id: 14,
+		// 		imageUrl: "thanksgiving/kachi.webp",
+		// 		category: "Joshua, Kachi and Dolamu",
+		// 	},
+		// 	{
+		// 		id: 15,
+		// 		imageUrl: "thanksgiving/kenny.jpeg",
+		// 		category: "Salami Kehinde",
+		// 	},
+		// 	{
+		// 		id: 16,
+		// 		imageUrl: "thanksgiving/lekan.webp",
+		// 		category: "Lekan",
+		// 	},
+		// 	{
+		// 		id: 17,
+		// 		imageUrl: "thanksgiving/precious.webp",
+		// 		category: "Precious Ihunaya",
+		// 	},
+		// 	{
+		// 		id: 18,
+		// 		imageUrl: "thanksgiving/roy.webp",
+		// 		category: "Udom Roy",
+		// 	},
+		// 	{
+		// 		id: 20,
+		// 		imageUrl: "thanksgiving/temi.webp",
+		// 		category: "Abiodun Temidayo",
+		// 	},
 
-			{
-				id: 22,
-				imageUrl: "thanksgiving/veronica.webp",
-				category: "Ejeh Veronica",
-			},
-			{
-				id: 23,
-				imageUrl: "thanksgiving/victoria.webp",
-				category: "Ajibola Victoria",
-			},
-			{
-				id: 24,
-				imageUrl: "thanksgiving/victory.webp",
-				category: "Okenwa Victory",
-			},
-			{
-				id: 7,
-				imageUrl: "thanksgiving/caleb.webp",
-				category: "Emelu Caleb",
-			},
-			{
-				id: 25,
-				imageUrl: "thanksgiving/me4.webp",
-				category: "Thanksgiving",
-			},
-		],
+		// 	{
+		// 		id: 22,
+		// 		imageUrl: "thanksgiving/veronica.webp",
+		// 		category: "Ejeh Veronica",
+		// 	},
+		// 	{
+		// 		id: 23,
+		// 		imageUrl: "thanksgiving/victoria.webp",
+		// 		category: "Ajibola Victoria",
+		// 	},
+		// 	{
+		// 		id: 24,
+		// 		imageUrl: "thanksgiving/victory.webp",
+		// 		category: "Okenwa Victory",
+		// 	},
+		// 	{
+		// 		id: 7,
+		// 		imageUrl: "thanksgiving/caleb.webp",
+		// 		category: "Emelu Caleb",
+		// 	},
+		// 	{
+		// 		id: 25,
+		// 		imageUrl: "thanksgiving/me4.webp",
+		// 		category: "Thanksgiving",
+		// 	},
+		// ],
 	},
 ];
 
