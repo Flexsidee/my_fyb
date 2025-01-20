@@ -12,7 +12,7 @@ const appreciations = [
 		images: [
 			{
 				id: 4,
-				imageUrl: "/thanksgiving/family.jpeg",
+				imageUrl: "/family/thanks.webp",
 				category: "Rapheal, Me, Sis and Dad",
 			},
 			{
@@ -63,14 +63,19 @@ const appreciations = [
 		description: `Fieldbase Services Limited, thank you for providing a professional environment where I could grow and apply my skills. Special thanks to the Managing Director, Mr. Chinedu Abanobi, the Head of Department, Mr. Awolere Adeleke, and all other colleagues. Your support and collaboration, and the opportunity to work for Fieldbase while studying, have been invaluable.`,
 		images: [
 			{
-				id: 1,
-				category: "Fieldbase Team at NOG",
-				imageUrl: "/fbase/1.jpg",
+				id: 3,
+				category: "Fieldbase LAGOS Team at OFFICE",
+				imageUrl: "/fbase/3.webp",
 			},
 			{
 				id: 2,
 				category: "Fieldbase Lagos Team Hangout",
 				imageUrl: "/fbase/2.jpg",
+			},
+			{
+				id: 1,
+				category: "Fieldbase Lagos Team Hangout",
+				imageUrl: "/fbase/1.jpg",
 			},
 		],
 	},
