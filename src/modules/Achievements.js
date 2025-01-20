@@ -29,8 +29,7 @@ const achievements = [
 	{
 		id: 3,
 		title: "NCS 13th Annual IT Development Programme (Jan 2024)",
-		imageUrl:
-			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269676/ncs13a_tu98nw.webp",
+		imageUrl: "/ach-images/ncs13a.webp",
 		imgAlt: "The team and coach after arriving at the venue",
 		description: `Represented the university and led the team in the 13th Annual Information Technology Development Programme organized by NCS at Federal University of Agriculture Abeokuta (FUNAAB). Personally excelled in the Quiz category, finishing 1st with a score of 98/100. Additionally, the university team came 2nd in the IT Innovation Presentation Contest and 2nd in the Software Challenge, to which I contributed.`,
 	},
@@ -66,8 +65,7 @@ const achievements = [
 	{
 		id: 7,
 		title: "NFC Payment Project (Jan 2023)",
-		imageUrl:
-			"https://res.cloudinary.com/dxoc9hoji/image/upload/v1721269674/motivateion_l37wat.webp",
+		imageUrl: "/ach-images/motivation.png",
 		imgAlt: "Explaining the project functionalities to colleagues",
 		description: `Contributed to the development of an NFC Payment project, an IoT
 						solution using NFC cards for payments across the institution. The
@@ -103,13 +101,6 @@ const achievements = [
 						running and workouts.`,
 	},
 	{
-		id: 11,
-		title: "Invited to talk on air at Caleb Radio (Jan 2023)",
-		imageUrl: "/ach-images/radio.webp",
-		imgAlt: "At the studio with colleagues",
-		description: `Invited twice to speak at the studio. The first time was to discuss the software solution we presented at the NCS 12th Annual IT Development Programme. The second time was to talk about the NFC Project I worked on.`,
-	},
-	{
 		id: 12,
 		title: "Invited to Caleb News Room (July 2024)",
 		imageUrl: "/ach-images/news.webp",
@@ -119,10 +110,17 @@ const achievements = [
 	{
 		id: 13,
 		title:
-			"Google Developer Student Club Leads Graduation Party Invitation (July 2024)",
-		imageUrl: "/ach-images/news.webp",
+		"Google Developer Student Club Leads Graduation Party Invitation (July 2024)",
+		imageUrl: "/ach-images/google.webp",
 		imgAlt: "Fellow Ex GDSC Leads with Program Manager at Google Lagos Office",
 		description: `As the outgoing GDSC Lead, I had the opportunity to be invited to the 2023/2024 Google Developer Student Club Leads graduation party at the Google Lagos office.`,
+	},
+	{
+		id: 11,
+		title: "Invited to talk on air at Caleb Radio (Jan 2023)",
+		// imageUrl: "/ach-images/radio.webp",
+		imgAlt: "At the studio with colleagues",
+		description: `Invited twice to speak at the studio. The first time was to discuss the software solution we presented at the NCS 12th Annual IT Development Programme. The second time was to talk about the NFC Project I worked on.`,
 	},
 ];
 
