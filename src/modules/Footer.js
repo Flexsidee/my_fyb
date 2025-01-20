@@ -7,6 +7,7 @@ import {
 	IconBrandLinkedin,
 	IconBrandTiktok,
 	IconBrandTwitterFilled,
+	IconBrandYoutube,
 } from "@tabler/icons-react";
 import { Fade } from "react-reveal";
 
@@ -24,21 +25,28 @@ const Footer = () => {
 					<Group>
 						<ActionIcon
 							component="a"
-							href="https://www.instagram.com/daniel_somade/"
+							href="https://www.instagram.com/danielsomade/"
 							variant="transparent"
 							target="_blank">
 							<IconBrandInstagram color="white" size={24} />
 						</ActionIcon>
 						<ActionIcon
 							component="a"
-							href="https://www.tiktok.com/@daniel_somade"
+							href="https://www.tiktok.com/@danielsomade"
 							variant="transparent"
 							target="_blank">
 							<IconBrandTiktok color="white" size={24} />
 						</ActionIcon>
 						<ActionIcon
 							component="a"
-							href="https://twitter.com/flexsidee"
+							href="https://www.youtube.com/@danielsomade"
+							variant="transparent"
+							target="_blank">
+							<IconBrandYoutube color="white" size={24} />
+						</ActionIcon>
+						<ActionIcon
+							component="a"
+							href="https://x.com/flexsidee"
 							variant="transparent"
 							target="_blank">
 							<IconBrandTwitterFilled color="white" size={24} />
